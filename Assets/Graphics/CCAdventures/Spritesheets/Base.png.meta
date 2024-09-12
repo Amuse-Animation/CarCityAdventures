@@ -1,0 +1,306 @@
+fileFormatVersion: 2
+guid: a1c817ce8087f4846bdacf4d72ee95ad
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: 12
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: 12
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sheet_Base-HD_0
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 2855
+        width: 1410
+        height: 1351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76aa83ecf72db0f428f72b7d57d129e0
+      internalID: -72702325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_Base-HD_2
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1475
+        width: 2345
+        height: 1354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf48f1b5931f31a42a214b29caf93c03
+      internalID: 1326984016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_Base-HD_62
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 2
+        width: 2164
+        height: 1436
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2188c1600286aa4baf94ada3c9682fe
+      internalID: -440195201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      sheet_Base-HD_0: -72702325
+      sheet_Base-HD_1: 2058487942
+      sheet_Base-HD_10: 663407115
+      sheet_Base-HD_100: -6837807
+      sheet_Base-HD_101: -1548189962
+      sheet_Base-HD_102: -397751096
+      sheet_Base-HD_11: -1521838216
+      sheet_Base-HD_12: -2050664390
+      sheet_Base-HD_13: 718668653
+      sheet_Base-HD_14: 1900936643
+      sheet_Base-HD_15: -1902029827
+      sheet_Base-HD_16: 1564244539
+      sheet_Base-HD_17: -1766708573
+      sheet_Base-HD_18: 1315072466
+      sheet_Base-HD_19: -478560882
+      sheet_Base-HD_2: 1326984016
+      sheet_Base-HD_20: 946786306
+      sheet_Base-HD_21: 91120554
+      sheet_Base-HD_22: 1795311425
+      sheet_Base-HD_23: -875101633
+      sheet_Base-HD_24: 1126513980
+      sheet_Base-HD_25: -1061335298
+      sheet_Base-HD_26: -282406222
+      sheet_Base-HD_27: 1084144670
+      sheet_Base-HD_28: -1522026517
+      sheet_Base-HD_29: -1729114319
+      sheet_Base-HD_3: -331115464
+      sheet_Base-HD_30: -656549391
+      sheet_Base-HD_31: -705258219
+      sheet_Base-HD_32: 603134311
+      sheet_Base-HD_33: 940061735
+      sheet_Base-HD_34: -415545285
+      sheet_Base-HD_35: 100183101
+      sheet_Base-HD_36: 560327406
+      sheet_Base-HD_37: -1815233628
+      sheet_Base-HD_38: 449098808
+      sheet_Base-HD_39: 1056330618
+      sheet_Base-HD_4: 747214019
+      sheet_Base-HD_40: -1853853329
+      sheet_Base-HD_41: 1063848908
+      sheet_Base-HD_42: -898798439
+      sheet_Base-HD_43: -648483152
+      sheet_Base-HD_44: -34024385
+      sheet_Base-HD_45: -1650840424
+      sheet_Base-HD_46: -869992200
+      sheet_Base-HD_47: -1419170855
+      sheet_Base-HD_48: -588996802
+      sheet_Base-HD_49: 1782427755
+      sheet_Base-HD_5: 1322398410
+      sheet_Base-HD_50: -1358575247
+      sheet_Base-HD_51: 922586635
+      sheet_Base-HD_52: -689863462
+      sheet_Base-HD_53: -2125838351
+      sheet_Base-HD_54: 1978409632
+      sheet_Base-HD_55: -771550120
+      sheet_Base-HD_56: -1286759936
+      sheet_Base-HD_57: 2106856418
+      sheet_Base-HD_58: -919858987
+      sheet_Base-HD_59: -349672195
+      sheet_Base-HD_6: 348138306
+      sheet_Base-HD_60: -374898185
+      sheet_Base-HD_61: -365632889
+      sheet_Base-HD_62: -440195201
+      sheet_Base-HD_63: 1210953122
+      sheet_Base-HD_64: 1656704789
+      sheet_Base-HD_65: 1479890280
+      sheet_Base-HD_66: -765449867
+      sheet_Base-HD_67: 1951691786
+      sheet_Base-HD_68: 1463011754
+      sheet_Base-HD_69: -1362526600
+      sheet_Base-HD_7: -1011762307
+      sheet_Base-HD_70: -1134975596
+      sheet_Base-HD_71: 127457800
+      sheet_Base-HD_72: 117477629
+      sheet_Base-HD_73: -1617243948
+      sheet_Base-HD_74: 798485300
+      sheet_Base-HD_75: 1374748078
+      sheet_Base-HD_76: 106875434
+      sheet_Base-HD_77: -723695766
+      sheet_Base-HD_78: -542215166
+      sheet_Base-HD_79: 1553344940
+      sheet_Base-HD_8: 1401561289
+      sheet_Base-HD_80: -1555511290
+      sheet_Base-HD_81: 345743971
+      sheet_Base-HD_82: 979513779
+      sheet_Base-HD_83: 1465190817
+      sheet_Base-HD_84: 1907175071
+      sheet_Base-HD_85: 42088583
+      sheet_Base-HD_86: 1900194478
+      sheet_Base-HD_87: 802423187
+      sheet_Base-HD_88: -348018527
+      sheet_Base-HD_89: -1333501403
+      sheet_Base-HD_9: -1467435587
+      sheet_Base-HD_90: 58891718
+      sheet_Base-HD_91: 2133696978
+      sheet_Base-HD_92: 1464703899
+      sheet_Base-HD_93: 1460743353
+      sheet_Base-HD_94: -1153983087
+      sheet_Base-HD_95: 41209244
+      sheet_Base-HD_96: 1162026211
+      sheet_Base-HD_97: 313178180
+      sheet_Base-HD_98: -754863242
+      sheet_Base-HD_99: -1648389233
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

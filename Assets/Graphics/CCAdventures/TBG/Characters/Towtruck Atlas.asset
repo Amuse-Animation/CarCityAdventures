@@ -1,0 +1,205 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Towtruck Atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 0
+      compressionQuality: 0
+      maxTextureSize: 0
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 1
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 0
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 8192
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 0
+      blockOffset: 0
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 7105337008689805527, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+    - {fileID: -1369232453956993089, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+    - {fileID: -89876230280860710, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+    - {fileID: 1582079019350108118, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+    - {fileID: 1730602468023835169, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+    - {fileID: -197511144334221357, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+    - {fileID: -1236914541490392288, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+    - {fileID: 3218393628064860653, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+    - {fileID: 8494006960175888114, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+    - {fileID: 98338105915577334, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+    - {fileID: 5800356211554097197, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+    - {fileID: 2485008088440315682, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+    - {fileID: -20810874372459114, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+    - {fileID: 8539327495215685455, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+    - {fileID: 599524463896914078, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+    - {fileID: 6461280069897454955, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+    - {fileID: 3354925867767022469, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+    - {fileID: -757674920609959007, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+    - {fileID: -4051991912713906215, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+    - {fileID: 697076121901652389, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+    - {fileID: -8102839537210766305, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+    - {fileID: 5601513026413188548, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+    - {fileID: 8736312198104670958, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+    - {fileID: 3319837121442365065, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+    - {fileID: -3146772905257899759, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+    - {fileID: -673690288996858396, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+    - {fileID: -2380402285951353659, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+    - {fileID: -2545527943585521576, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+    - {fileID: 1677719819559185550, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+    - {fileID: -2073075417458683436, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+    - {fileID: 4228762550427851162, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+    - {fileID: 1895317984026522043, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+    - {fileID: -1356009587216535913, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+    - {fileID: -2837480712939611533, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+    - {fileID: -6243740836887936913, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+    - {fileID: -5095923329780889625, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+    - {fileID: -1182591244350677956, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - b134e434f9555d24ca317b68d8109cb7: -8102839537210766305
+    - b134e434f9555d24ca317b68d8109cb7: -6243740836887936913
+    - b134e434f9555d24ca317b68d8109cb7: -5095923329780889625
+    - b134e434f9555d24ca317b68d8109cb7: -4051991912713906215
+    - b134e434f9555d24ca317b68d8109cb7: -3146772905257899759
+    - b134e434f9555d24ca317b68d8109cb7: -2837480712939611533
+    - b134e434f9555d24ca317b68d8109cb7: -2545527943585521576
+    - b134e434f9555d24ca317b68d8109cb7: -2380402285951353659
+    - b134e434f9555d24ca317b68d8109cb7: -2073075417458683436
+    - b134e434f9555d24ca317b68d8109cb7: -1369232453956993089
+    - b134e434f9555d24ca317b68d8109cb7: -1356009587216535913
+    - b134e434f9555d24ca317b68d8109cb7: -1236914541490392288
+    - b134e434f9555d24ca317b68d8109cb7: -1182591244350677956
+    - b134e434f9555d24ca317b68d8109cb7: -757674920609959007
+    - b134e434f9555d24ca317b68d8109cb7: -673690288996858396
+    - b134e434f9555d24ca317b68d8109cb7: -197511144334221357
+    - b134e434f9555d24ca317b68d8109cb7: -89876230280860710
+    - b134e434f9555d24ca317b68d8109cb7: -20810874372459114
+    - b134e434f9555d24ca317b68d8109cb7: 98338105915577334
+    - b134e434f9555d24ca317b68d8109cb7: 599524463896914078
+    - b134e434f9555d24ca317b68d8109cb7: 697076121901652389
+    - b134e434f9555d24ca317b68d8109cb7: 1582079019350108118
+    - b134e434f9555d24ca317b68d8109cb7: 1677719819559185550
+    - b134e434f9555d24ca317b68d8109cb7: 1730602468023835169
+    - b134e434f9555d24ca317b68d8109cb7: 1895317984026522043
+    - b134e434f9555d24ca317b68d8109cb7: 2485008088440315682
+    - b134e434f9555d24ca317b68d8109cb7: 3218393628064860653
+    - b134e434f9555d24ca317b68d8109cb7: 3319837121442365065
+    - b134e434f9555d24ca317b68d8109cb7: 3354925867767022469
+    - b134e434f9555d24ca317b68d8109cb7: 4228762550427851162
+    - b134e434f9555d24ca317b68d8109cb7: 5601513026413188548
+    - b134e434f9555d24ca317b68d8109cb7: 5800356211554097197
+    - b134e434f9555d24ca317b68d8109cb7: 6461280069897454955
+    - b134e434f9555d24ca317b68d8109cb7: 7105337008689805527
+    - b134e434f9555d24ca317b68d8109cb7: 8494006960175888114
+    - b134e434f9555d24ca317b68d8109cb7: 8539327495215685455
+    - b134e434f9555d24ca317b68d8109cb7: 8736312198104670958
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: -8102839537210766305, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+  - {fileID: -6243740836887936913, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+  - {fileID: -5095923329780889625, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+  - {fileID: -4051991912713906215, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+  - {fileID: -3146772905257899759, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+  - {fileID: -2837480712939611533, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+  - {fileID: -2545527943585521576, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+  - {fileID: -2380402285951353659, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+  - {fileID: -2073075417458683436, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+  - {fileID: -1369232453956993089, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+  - {fileID: -1356009587216535913, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+  - {fileID: -1236914541490392288, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+  - {fileID: -1182591244350677956, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+  - {fileID: -757674920609959007, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+  - {fileID: -673690288996858396, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+  - {fileID: -197511144334221357, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+  - {fileID: -89876230280860710, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+  - {fileID: -20810874372459114, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+  - {fileID: 98338105915577334, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+  - {fileID: 599524463896914078, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+  - {fileID: 697076121901652389, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+  - {fileID: 1582079019350108118, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+  - {fileID: 1677719819559185550, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+  - {fileID: 1730602468023835169, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+  - {fileID: 1895317984026522043, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+  - {fileID: 2485008088440315682, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+  - {fileID: 3218393628064860653, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+  - {fileID: 3319837121442365065, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+  - {fileID: 3354925867767022469, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+  - {fileID: 4228762550427851162, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+  - {fileID: 5601513026413188548, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+  - {fileID: 5800356211554097197, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+  - {fileID: 6461280069897454955, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+  - {fileID: 7105337008689805527, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+  - {fileID: 8494006960175888114, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+  - {fileID: 8539327495215685455, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+  - {fileID: 8736312198104670958, guid: b134e434f9555d24ca317b68d8109cb7, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - FullHD-CHR_TowTruck-Light_2_0.png
+  - FullHD-CHR_TowTruck-Wheel_B1_0.png
+  - FullHD-CHR_TowTruck-Wheel_F1_0.png
+  - FullHD-CHR_TowTruck-Light_1_0.png
+  - FullHD-CHR_TowTruck-Piece_0.png
+  - FullHD-CHR_TowTruck-Rope_4.png
+  - FullHD-CHR_TowTruck-Rearview_L_0.png
+  - FullHD-CHR_TowTruck-Pupils_1.png
+  - FullHD-CHR_TowTruck-Rope_0.png
+  - FullHD-CHR_TowTruck-Base_0.png
+  - FullHD-CHR_TowTruck-Rope_3.png
+  - FullHD-CHR_TowTruck-Eyes_0.png
+  - FullHD-CHR_TowTruck-Wheel_F2_0.png
+  - FullHD-CHR_TowTruck-Hook_1.png
+  - FullHD-CHR_TowTruck-Pupils_0.png
+  - FullHD-CHR_TowTruck-Bumper_0.png
+  - FullHD-CHR_TowTruck-Base_1.png
+  - FullHD-CHR_TowTruck-Eyes_8.png
+  - FullHD-CHR_TowTruck-Eyes_3.png
+  - FullHD-CHR_TowTruck-Headlight_1_0.png
+  - FullHD-CHR_TowTruck-Light_1_1.png
+  - FullHD-CHR_TowTruck-Beard_0.png
+  - FullHD-CHR_TowTruck-Rearview_R_0.png
+  - FullHD-CHR_TowTruck-Body_Back_0.png
+  - FullHD-CHR_TowTruck-Rope_2.png
+  - FullHD-CHR_TowTruck-Eyes_7.png
+  - FullHD-CHR_TowTruck-Eyes_1.png
+  - FullHD-CHR_TowTruck-Mouth_2.png
+  - FullHD-CHR_TowTruck-Hook_0.png
+  - FullHD-CHR_TowTruck-Rope_1.png
+  - FullHD-CHR_TowTruck-Mouth_0.png
+  - FullHD-CHR_TowTruck-Eyes_5.png
+  - FullHD-CHR_TowTruck-Headlight_2_0.png
+  - FullHD-CHR_TowTruck-Arm_0.png
+  - FullHD-CHR_TowTruck-Eyes_2.png
+  - FullHD-CHR_TowTruck-Eyes_11.png
+  - FullHD-CHR_TowTruck-Mouth_1.png
+  m_RenderDataMap: {}
+  m_Tag: Towtruck Atlas
+  m_IsVariant: 0

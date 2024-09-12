@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FireHidrant Atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 0
+      compressionQuality: 0
+      maxTextureSize: 0
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 1
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 0
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 8192
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 0
+      blockOffset: 0
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 8294100828727772115, guid: c70925a85424cfd40828e3aad7e451a4, type: 3}
+    - {fileID: -5147849131986131023, guid: c70925a85424cfd40828e3aad7e451a4, type: 3}
+    - {fileID: -4021426291884895437, guid: c70925a85424cfd40828e3aad7e451a4, type: 3}
+    - {fileID: -7292924482104300256, guid: c70925a85424cfd40828e3aad7e451a4, type: 3}
+    - {fileID: 5321837204526755708, guid: c70925a85424cfd40828e3aad7e451a4, type: 3}
+    - {fileID: -7203489888058731008, guid: c70925a85424cfd40828e3aad7e451a4, type: 3}
+    - {fileID: 1409497168081700666, guid: c70925a85424cfd40828e3aad7e451a4, type: 3}
+    - {fileID: 8648959325041962686, guid: c70925a85424cfd40828e3aad7e451a4, type: 3}
+    - {fileID: -3134830757303428684, guid: c70925a85424cfd40828e3aad7e451a4, type: 3}
+    - {fileID: 6887641806881572948, guid: c70925a85424cfd40828e3aad7e451a4, type: 3}
+    - {fileID: -8604946576954348559, guid: c70925a85424cfd40828e3aad7e451a4, type: 3}
+    - {fileID: -2378044833684926428, guid: c70925a85424cfd40828e3aad7e451a4, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - c70925a85424cfd40828e3aad7e451a4: -8604946576954348559
+    - c70925a85424cfd40828e3aad7e451a4: -7292924482104300256
+    - c70925a85424cfd40828e3aad7e451a4: -7203489888058731008
+    - c70925a85424cfd40828e3aad7e451a4: -5147849131986131023
+    - c70925a85424cfd40828e3aad7e451a4: -4021426291884895437
+    - c70925a85424cfd40828e3aad7e451a4: -3134830757303428684
+    - c70925a85424cfd40828e3aad7e451a4: -2378044833684926428
+    - c70925a85424cfd40828e3aad7e451a4: 1409497168081700666
+    - c70925a85424cfd40828e3aad7e451a4: 5321837204526755708
+    - c70925a85424cfd40828e3aad7e451a4: 6887641806881572948
+    - c70925a85424cfd40828e3aad7e451a4: 8294100828727772115
+    - c70925a85424cfd40828e3aad7e451a4: 8648959325041962686
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: -8604946576954348559, guid: c70925a85424cfd40828e3aad7e451a4, type: 3}
+  - {fileID: -7292924482104300256, guid: c70925a85424cfd40828e3aad7e451a4, type: 3}
+  - {fileID: -7203489888058731008, guid: c70925a85424cfd40828e3aad7e451a4, type: 3}
+  - {fileID: -5147849131986131023, guid: c70925a85424cfd40828e3aad7e451a4, type: 3}
+  - {fileID: -4021426291884895437, guid: c70925a85424cfd40828e3aad7e451a4, type: 3}
+  - {fileID: -3134830757303428684, guid: c70925a85424cfd40828e3aad7e451a4, type: 3}
+  - {fileID: -2378044833684926428, guid: c70925a85424cfd40828e3aad7e451a4, type: 3}
+  - {fileID: 1409497168081700666, guid: c70925a85424cfd40828e3aad7e451a4, type: 3}
+  - {fileID: 5321837204526755708, guid: c70925a85424cfd40828e3aad7e451a4, type: 3}
+  - {fileID: 6887641806881572948, guid: c70925a85424cfd40828e3aad7e451a4, type: 3}
+  - {fileID: 8294100828727772115, guid: c70925a85424cfd40828e3aad7e451a4, type: 3}
+  - {fileID: 8648959325041962686, guid: c70925a85424cfd40828e3aad7e451a4, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - FullHD-CHR_Bulldozer-FireHidrant_10.png
+  - FullHD-CHR_Bulldozer-FireHidrant_3.png
+  - FullHD-CHR_Bulldozer-FireHidrant_5.png
+  - FullHD-CHR_Bulldozer-FireHidrant_1.png
+  - FullHD-CHR_Bulldozer-FireHidrant_2.png
+  - FullHD-CHR_Bulldozer-FireHidrant_8.png
+  - FullHD-CHR_Bulldozer-FireHidrant_11.png
+  - FullHD-CHR_Bulldozer-FireHidrant_6.png
+  - FullHD-CHR_Bulldozer-FireHidrant_4.png
+  - FullHD-CHR_Bulldozer-FireHidrant_9.png
+  - FullHD-CHR_Bulldozer-FireHidrant_0.png
+  - FullHD-CHR_Bulldozer-FireHidrant_7.png
+  m_RenderDataMap: {}
+  m_Tag: FireHidrant Atlas
+  m_IsVariant: 0

@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PalmTree Atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 0
+      compressionQuality: 0
+      maxTextureSize: 0
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 1
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 0
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 8192
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 0
+      blockOffset: 0
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: -1652731462449726333, guid: 6ba23a2a6309fc9499aaa76a937fca1e, type: 3}
+    - {fileID: 2330490344404342530, guid: 6ba23a2a6309fc9499aaa76a937fca1e, type: 3}
+    - {fileID: -797244400825111837, guid: 6ba23a2a6309fc9499aaa76a937fca1e, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - 6ba23a2a6309fc9499aaa76a937fca1e: -1652731462449726333
+    - 6ba23a2a6309fc9499aaa76a937fca1e: -797244400825111837
+    - 6ba23a2a6309fc9499aaa76a937fca1e: 2330490344404342530
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: -1652731462449726333, guid: 6ba23a2a6309fc9499aaa76a937fca1e, type: 3}
+  - {fileID: -797244400825111837, guid: 6ba23a2a6309fc9499aaa76a937fca1e, type: 3}
+  - {fileID: 2330490344404342530, guid: 6ba23a2a6309fc9499aaa76a937fca1e, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - FullHD-Car_city_adventures-CHR_Bulldozer-PalmTop_0.png
+  - FullHD-Car_city_adventures-CHR_Bulldozer-Trunk_0.png
+  - FullHD-Car_city_adventures-CHR_Bulldozer-PalmTop_Top_0.png
+  m_RenderDataMap: {}
+  m_Tag: PalmTree Atlas
+  m_IsVariant: 0

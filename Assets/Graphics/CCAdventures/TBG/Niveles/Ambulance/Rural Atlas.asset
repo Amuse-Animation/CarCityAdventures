@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Rural Atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 0
+      compressionQuality: 0
+      maxTextureSize: 0
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 1
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 0
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 8192
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 0
+      blockOffset: 0
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 8326790838124116481, guid: c6f1ca54ec30a2949b0fa882a7177068, type: 3}
+    - {fileID: -1027031366062291264, guid: c6f1ca54ec30a2949b0fa882a7177068, type: 3}
+    - {fileID: 1034671492090876186, guid: c6f1ca54ec30a2949b0fa882a7177068, type: 3}
+    - {fileID: 9150434959303137576, guid: c6f1ca54ec30a2949b0fa882a7177068, type: 3}
+    - {fileID: 7072050427540467674, guid: c6f1ca54ec30a2949b0fa882a7177068, type: 3}
+    - {fileID: 8239309775333633779, guid: c6f1ca54ec30a2949b0fa882a7177068, type: 3}
+    - {fileID: 8068406422661732657, guid: c6f1ca54ec30a2949b0fa882a7177068, type: 3}
+    - {fileID: 7716514485714648616, guid: c6f1ca54ec30a2949b0fa882a7177068, type: 3}
+    - {fileID: 8435195834628552826, guid: c6f1ca54ec30a2949b0fa882a7177068, type: 3}
+    - {fileID: -5413978929718449979, guid: c6f1ca54ec30a2949b0fa882a7177068, type: 3}
+    - {fileID: -353302643185868725, guid: c6f1ca54ec30a2949b0fa882a7177068, type: 3}
+    - {fileID: -2615989047660082029, guid: c6f1ca54ec30a2949b0fa882a7177068, type: 3}
+    - {fileID: 6671975693405609299, guid: c6f1ca54ec30a2949b0fa882a7177068, type: 3}
+    - {fileID: 9216972069332160997, guid: c6f1ca54ec30a2949b0fa882a7177068, type: 3}
+    - {fileID: 9032881169504864876, guid: c6f1ca54ec30a2949b0fa882a7177068, type: 3}
+    - {fileID: -6490966599204698441, guid: c6f1ca54ec30a2949b0fa882a7177068, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - c6f1ca54ec30a2949b0fa882a7177068: 8326790838124116481
+    - c6f1ca54ec30a2949b0fa882a7177068: -1027031366062291264
+    - c6f1ca54ec30a2949b0fa882a7177068: 1034671492090876186
+    - c6f1ca54ec30a2949b0fa882a7177068: 9150434959303137576
+    - c6f1ca54ec30a2949b0fa882a7177068: 7072050427540467674
+    - c6f1ca54ec30a2949b0fa882a7177068: 8239309775333633779
+    - c6f1ca54ec30a2949b0fa882a7177068: 8068406422661732657
+    - c6f1ca54ec30a2949b0fa882a7177068: 7716514485714648616
+    - c6f1ca54ec30a2949b0fa882a7177068: 8435195834628552826
+    - c6f1ca54ec30a2949b0fa882a7177068: -5413978929718449979
+    - c6f1ca54ec30a2949b0fa882a7177068: -353302643185868725
+    - c6f1ca54ec30a2949b0fa882a7177068: -2615989047660082029
+    - c6f1ca54ec30a2949b0fa882a7177068: 6671975693405609299
+    - c6f1ca54ec30a2949b0fa882a7177068: 9216972069332160997
+    - c6f1ca54ec30a2949b0fa882a7177068: 9032881169504864876
+    - c6f1ca54ec30a2949b0fa882a7177068: -6490966599204698441
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 8326790838124116481, guid: c6f1ca54ec30a2949b0fa882a7177068, type: 3}
+  - {fileID: -1027031366062291264, guid: c6f1ca54ec30a2949b0fa882a7177068, type: 3}
+  - {fileID: 1034671492090876186, guid: c6f1ca54ec30a2949b0fa882a7177068, type: 3}
+  - {fileID: 9150434959303137576, guid: c6f1ca54ec30a2949b0fa882a7177068, type: 3}
+  - {fileID: 7072050427540467674, guid: c6f1ca54ec30a2949b0fa882a7177068, type: 3}
+  - {fileID: 8239309775333633779, guid: c6f1ca54ec30a2949b0fa882a7177068, type: 3}
+  - {fileID: 8068406422661732657, guid: c6f1ca54ec30a2949b0fa882a7177068, type: 3}
+  - {fileID: 7716514485714648616, guid: c6f1ca54ec30a2949b0fa882a7177068, type: 3}
+  - {fileID: 8435195834628552826, guid: c6f1ca54ec30a2949b0fa882a7177068, type: 3}
+  - {fileID: -5413978929718449979, guid: c6f1ca54ec30a2949b0fa882a7177068, type: 3}
+  - {fileID: -353302643185868725, guid: c6f1ca54ec30a2949b0fa882a7177068, type: 3}
+  - {fileID: -2615989047660082029, guid: c6f1ca54ec30a2949b0fa882a7177068, type: 3}
+  - {fileID: 6671975693405609299, guid: c6f1ca54ec30a2949b0fa882a7177068, type: 3}
+  - {fileID: 9216972069332160997, guid: c6f1ca54ec30a2949b0fa882a7177068, type: 3}
+  - {fileID: 9032881169504864876, guid: c6f1ca54ec30a2949b0fa882a7177068, type: 3}
+  - {fileID: -6490966599204698441, guid: c6f1ca54ec30a2949b0fa882a7177068, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - FullHD-BG-KidGreen-Burguer-Buildings-esfinge-Cross_0.png
+  - FullHD-BG-KidGreen-Burguer-Buildings-esfinge-Drawing_0.png
+  - FullHD-BG-KidGreen-Burguer-Buildings-esfinge-Drawing_1.png
+  - FullHD-BG-KidGreen-Burguer-Buildings-esfinge-Drawing_1_0.png
+  - FullHD-BG-KidGreen-Burguer-Buildings-esfinge-Drawing_2.png
+  - FullHD-BG-KidGreen-Burguer-Buildings-esfinge-Hospital_0.png
+  - FullHD-BG-KidGreen-Burguer-Buildings-esfinge-KidGreen_0.png
+  - FullHD-BG-KidGreen-Burguer-Buildings-esfinge-KidGreen_eyes_0.png
+  - FullHD-BG-KidGreen-Burguer-Buildings-esfinge-KidGreen_eyes_1.png
+  - FullHD-BG-KidGreen-Burguer-Buildings-esfinge-KidGreen_eyes_2.png
+  - FullHD-BG-KidGreen-Burguer-Buildings-esfinge-Pines_0.png
+  - FullHD-BG-KidGreen-Burguer-Buildings-esfinge-Pines_1.png
+  - FullHD-BG-KidGreen-Burguer-Buildings-esfinge-Pines_2.png
+  - FullHD-BG-KidGreen-Burguer-Buildings-esfinge-Snow_0.png
+  - FullHD-BG-KidGreen-Burguer-Buildings-esfinge-Snow_1.png
+  - FullHD-BG-KidGreen-Burguer-Buildings-esfinge-Snow_2.png
+  m_RenderDataMap: {}
+  m_Tag: Rural Atlas
+  m_IsVariant: 0

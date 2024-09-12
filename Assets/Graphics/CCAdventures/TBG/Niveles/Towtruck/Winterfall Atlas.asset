@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Winterfall Atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 0
+      compressionQuality: 0
+      maxTextureSize: 0
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 1
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 0
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 8192
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 0
+      blockOffset: 0
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2188917756278117435, guid: 2f004407c52e7a44c9b7361a7909a943, type: 3}
+    - {fileID: -1727957269180259637, guid: 2f004407c52e7a44c9b7361a7909a943, type: 3}
+    - {fileID: -7411930076204121536, guid: 2f004407c52e7a44c9b7361a7909a943, type: 3}
+    - {fileID: -5004996027861116391, guid: 2f004407c52e7a44c9b7361a7909a943, type: 3}
+    - {fileID: -2306601660835220681, guid: 2f004407c52e7a44c9b7361a7909a943, type: 3}
+    - {fileID: -3275911832555493835, guid: 2f004407c52e7a44c9b7361a7909a943, type: 3}
+    - {fileID: 540077853201450853, guid: 2f004407c52e7a44c9b7361a7909a943, type: 3}
+    - {fileID: -2293443504205981628, guid: 2f004407c52e7a44c9b7361a7909a943, type: 3}
+    - {fileID: 8915653055757164825, guid: 2f004407c52e7a44c9b7361a7909a943, type: 3}
+    - {fileID: -7874705183399381037, guid: 2f004407c52e7a44c9b7361a7909a943, type: 3}
+    - {fileID: -4993138299241976863, guid: 2f004407c52e7a44c9b7361a7909a943, type: 3}
+    - {fileID: 8130163787536685487, guid: 2f004407c52e7a44c9b7361a7909a943, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - 2f004407c52e7a44c9b7361a7909a943: 2188917756278117435
+    - 2f004407c52e7a44c9b7361a7909a943: -1727957269180259637
+    - 2f004407c52e7a44c9b7361a7909a943: -7411930076204121536
+    - 2f004407c52e7a44c9b7361a7909a943: -5004996027861116391
+    - 2f004407c52e7a44c9b7361a7909a943: -2306601660835220681
+    - 2f004407c52e7a44c9b7361a7909a943: -3275911832555493835
+    - 2f004407c52e7a44c9b7361a7909a943: 540077853201450853
+    - 2f004407c52e7a44c9b7361a7909a943: -2293443504205981628
+    - 2f004407c52e7a44c9b7361a7909a943: 8915653055757164825
+    - 2f004407c52e7a44c9b7361a7909a943: -7874705183399381037
+    - 2f004407c52e7a44c9b7361a7909a943: -4993138299241976863
+    - 2f004407c52e7a44c9b7361a7909a943: 8130163787536685487
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 2188917756278117435, guid: 2f004407c52e7a44c9b7361a7909a943, type: 3}
+  - {fileID: -1727957269180259637, guid: 2f004407c52e7a44c9b7361a7909a943, type: 3}
+  - {fileID: -7411930076204121536, guid: 2f004407c52e7a44c9b7361a7909a943, type: 3}
+  - {fileID: -5004996027861116391, guid: 2f004407c52e7a44c9b7361a7909a943, type: 3}
+  - {fileID: -2306601660835220681, guid: 2f004407c52e7a44c9b7361a7909a943, type: 3}
+  - {fileID: -3275911832555493835, guid: 2f004407c52e7a44c9b7361a7909a943, type: 3}
+  - {fileID: 540077853201450853, guid: 2f004407c52e7a44c9b7361a7909a943, type: 3}
+  - {fileID: -2293443504205981628, guid: 2f004407c52e7a44c9b7361a7909a943, type: 3}
+  - {fileID: 8915653055757164825, guid: 2f004407c52e7a44c9b7361a7909a943, type: 3}
+  - {fileID: -7874705183399381037, guid: 2f004407c52e7a44c9b7361a7909a943, type: 3}
+  - {fileID: -4993138299241976863, guid: 2f004407c52e7a44c9b7361a7909a943, type: 3}
+  - {fileID: 8130163787536685487, guid: 2f004407c52e7a44c9b7361a7909a943, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - FullHD-BG-Burguer-Buildings-esfinge-ChargingStation-Cross_0.png
+  - FullHD-BG-Burguer-Buildings-esfinge-ChargingStation-Drawing_0.png
+  - FullHD-BG-Burguer-Buildings-esfinge-ChargingStation-Drawing_1.png
+  - FullHD-BG-Burguer-Buildings-esfinge-ChargingStation-Drawing_1_0.png
+  - FullHD-BG-Burguer-Buildings-esfinge-ChargingStation-Drawing_2.png
+  - FullHD-BG-Burguer-Buildings-esfinge-ChargingStation-Hospital_0.png
+  - FullHD-BG-Burguer-Buildings-esfinge-ChargingStation-Pines_0.png
+  - FullHD-BG-Burguer-Buildings-esfinge-ChargingStation-Pines_1.png
+  - FullHD-BG-Burguer-Buildings-esfinge-ChargingStation-Pines_2.png
+  - FullHD-BG-Burguer-Buildings-esfinge-ChargingStation-Snow_0.png
+  - FullHD-BG-Burguer-Buildings-esfinge-ChargingStation-Snow_1.png
+  - FullHD-BG-Burguer-Buildings-esfinge-ChargingStation-Snow_2.png
+  m_RenderDataMap: {}
+  m_Tag: Winterfall Atlas
+  m_IsVariant: 0

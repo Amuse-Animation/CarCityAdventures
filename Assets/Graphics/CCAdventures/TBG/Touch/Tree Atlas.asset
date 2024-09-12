@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Tree Atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 0
+      compressionQuality: 0
+      maxTextureSize: 0
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 1
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 0
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 8192
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 0
+      blockOffset: 0
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: -8091172615046637138, guid: ece3dd2fb4421fb4da7c5852b3fb9f7f, type: 3}
+    - {fileID: 1620683261461119116, guid: ece3dd2fb4421fb4da7c5852b3fb9f7f, type: 3}
+    - {fileID: -797244400825111837, guid: ece3dd2fb4421fb4da7c5852b3fb9f7f, type: 3}
+    - {fileID: 4425756117112234309, guid: ece3dd2fb4421fb4da7c5852b3fb9f7f, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - ece3dd2fb4421fb4da7c5852b3fb9f7f: -8091172615046637138
+    - ece3dd2fb4421fb4da7c5852b3fb9f7f: -797244400825111837
+    - ece3dd2fb4421fb4da7c5852b3fb9f7f: 1620683261461119116
+    - ece3dd2fb4421fb4da7c5852b3fb9f7f: 4425756117112234309
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: -8091172615046637138, guid: ece3dd2fb4421fb4da7c5852b3fb9f7f, type: 3}
+  - {fileID: -797244400825111837, guid: ece3dd2fb4421fb4da7c5852b3fb9f7f, type: 3}
+  - {fileID: 1620683261461119116, guid: ece3dd2fb4421fb4da7c5852b3fb9f7f, type: 3}
+  - {fileID: 4425756117112234309, guid: ece3dd2fb4421fb4da7c5852b3fb9f7f, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - FullHD-Car_city_adventures-CHR_Bulldozer-TreeTop_0.png
+  - FullHD-Car_city_adventures-CHR_Bulldozer-Trunk_0.png
+  - FullHD-Car_city_adventures-CHR_Bulldozer-TreeTop_1.png
+  - FullHD-Car_city_adventures-CHR_Bulldozer-Trunk_1.png
+  m_RenderDataMap: {}
+  m_Tag: Tree Atlas
+  m_IsVariant: 0

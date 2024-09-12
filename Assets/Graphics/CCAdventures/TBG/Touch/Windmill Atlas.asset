@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Windmill Atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 0
+      compressionQuality: 0
+      maxTextureSize: 0
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 1
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 0
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 8192
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 0
+      blockOffset: 0
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: -8388469430507808053, guid: d099da2ff5c0f6a4cb537c10b33a9050, type: 3}
+    - {fileID: -802515389099631982, guid: d099da2ff5c0f6a4cb537c10b33a9050, type: 3}
+    - {fileID: 8496401144917978747, guid: d099da2ff5c0f6a4cb537c10b33a9050, type: 3}
+    - {fileID: 1345101434229791332, guid: d099da2ff5c0f6a4cb537c10b33a9050, type: 3}
+    - {fileID: 4190110262569801715, guid: d099da2ff5c0f6a4cb537c10b33a9050, type: 3}
+    - {fileID: -5730378689064449533, guid: d099da2ff5c0f6a4cb537c10b33a9050, type: 3}
+    - {fileID: 114005727294720992, guid: d099da2ff5c0f6a4cb537c10b33a9050, type: 3}
+    - {fileID: -3086163819755910475, guid: d099da2ff5c0f6a4cb537c10b33a9050, type: 3}
+    - {fileID: -2739168216362599562, guid: d099da2ff5c0f6a4cb537c10b33a9050, type: 3}
+    - {fileID: -8053520767494529208, guid: d099da2ff5c0f6a4cb537c10b33a9050, type: 3}
+    - {fileID: 4624412783215093122, guid: d099da2ff5c0f6a4cb537c10b33a9050, type: 3}
+    - {fileID: 7553965237037966632, guid: d099da2ff5c0f6a4cb537c10b33a9050, type: 3}
+    - {fileID: -1930617475761807879, guid: d099da2ff5c0f6a4cb537c10b33a9050, type: 3}
+    - {fileID: 4772589644981515810, guid: d099da2ff5c0f6a4cb537c10b33a9050, type: 3}
+    - {fileID: -6868725612763748870, guid: d099da2ff5c0f6a4cb537c10b33a9050, type: 3}
+    - {fileID: 1677591316960652620, guid: d099da2ff5c0f6a4cb537c10b33a9050, type: 3}
+    - {fileID: 8070264327954892626, guid: d099da2ff5c0f6a4cb537c10b33a9050, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - d099da2ff5c0f6a4cb537c10b33a9050: -8388469430507808053
+    - d099da2ff5c0f6a4cb537c10b33a9050: -8053520767494529208
+    - d099da2ff5c0f6a4cb537c10b33a9050: -6868725612763748870
+    - d099da2ff5c0f6a4cb537c10b33a9050: -5730378689064449533
+    - d099da2ff5c0f6a4cb537c10b33a9050: -3086163819755910475
+    - d099da2ff5c0f6a4cb537c10b33a9050: -2739168216362599562
+    - d099da2ff5c0f6a4cb537c10b33a9050: -1930617475761807879
+    - d099da2ff5c0f6a4cb537c10b33a9050: -802515389099631982
+    - d099da2ff5c0f6a4cb537c10b33a9050: 114005727294720992
+    - d099da2ff5c0f6a4cb537c10b33a9050: 1345101434229791332
+    - d099da2ff5c0f6a4cb537c10b33a9050: 1677591316960652620
+    - d099da2ff5c0f6a4cb537c10b33a9050: 4190110262569801715
+    - d099da2ff5c0f6a4cb537c10b33a9050: 4624412783215093122
+    - d099da2ff5c0f6a4cb537c10b33a9050: 4772589644981515810
+    - d099da2ff5c0f6a4cb537c10b33a9050: 7553965237037966632
+    - d099da2ff5c0f6a4cb537c10b33a9050: 8070264327954892626
+    - d099da2ff5c0f6a4cb537c10b33a9050: 8496401144917978747
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: -8388469430507808053, guid: d099da2ff5c0f6a4cb537c10b33a9050, type: 3}
+  - {fileID: -8053520767494529208, guid: d099da2ff5c0f6a4cb537c10b33a9050, type: 3}
+  - {fileID: -6868725612763748870, guid: d099da2ff5c0f6a4cb537c10b33a9050, type: 3}
+  - {fileID: -5730378689064449533, guid: d099da2ff5c0f6a4cb537c10b33a9050, type: 3}
+  - {fileID: -3086163819755910475, guid: d099da2ff5c0f6a4cb537c10b33a9050, type: 3}
+  - {fileID: -2739168216362599562, guid: d099da2ff5c0f6a4cb537c10b33a9050, type: 3}
+  - {fileID: -1930617475761807879, guid: d099da2ff5c0f6a4cb537c10b33a9050, type: 3}
+  - {fileID: -802515389099631982, guid: d099da2ff5c0f6a4cb537c10b33a9050, type: 3}
+  - {fileID: 114005727294720992, guid: d099da2ff5c0f6a4cb537c10b33a9050, type: 3}
+  - {fileID: 1345101434229791332, guid: d099da2ff5c0f6a4cb537c10b33a9050, type: 3}
+  - {fileID: 1677591316960652620, guid: d099da2ff5c0f6a4cb537c10b33a9050, type: 3}
+  - {fileID: 4190110262569801715, guid: d099da2ff5c0f6a4cb537c10b33a9050, type: 3}
+  - {fileID: 4624412783215093122, guid: d099da2ff5c0f6a4cb537c10b33a9050, type: 3}
+  - {fileID: 4772589644981515810, guid: d099da2ff5c0f6a4cb537c10b33a9050, type: 3}
+  - {fileID: 7553965237037966632, guid: d099da2ff5c0f6a4cb537c10b33a9050, type: 3}
+  - {fileID: 8070264327954892626, guid: d099da2ff5c0f6a4cb537c10b33a9050, type: 3}
+  - {fileID: 8496401144917978747, guid: d099da2ff5c0f6a4cb537c10b33a9050, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - FullHD-Car_city_adventures-CHR_Bulldozer-CHR_Bulldozer_rec-Windmill_rec-Drawing_1_0.png
+  - FullHD-Car_city_adventures-CHR_Bulldozer-CHR_Bulldozer_rec-Windmill_rec-leaves_1_8.png
+  - FullHD-Car_city_adventures-CHR_Bulldozer-CHR_Bulldozer_rec-Windmill_rec-molino2_1_5.png
+  - FullHD-Car_city_adventures-CHR_Bulldozer-CHR_Bulldozer_rec-Windmill_rec-leaves_1_4.png
+  - FullHD-Car_city_adventures-CHR_Bulldozer-CHR_Bulldozer_rec-Windmill_rec-leaves_1_6.png
+  - FullHD-Car_city_adventures-CHR_Bulldozer-CHR_Bulldozer_rec-Windmill_rec-leaves_1_7.png
+  - FullHD-Car_city_adventures-CHR_Bulldozer-CHR_Bulldozer_rec-Windmill_rec-molino2_1_3.png
+  - FullHD-Car_city_adventures-CHR_Bulldozer-CHR_Bulldozer_rec-Windmill_rec-leaves_1_0.png
+  - FullHD-Car_city_adventures-CHR_Bulldozer-CHR_Bulldozer_rec-Windmill_rec-leaves_1_5.png
+  - FullHD-Car_city_adventures-CHR_Bulldozer-CHR_Bulldozer_rec-Windmill_rec-leaves_1_2.png
+  - FullHD-Car_city_adventures-CHR_Bulldozer-CHR_Bulldozer_rec-Windmill_rec-molino2_1_6.png
+  - FullHD-Car_city_adventures-CHR_Bulldozer-CHR_Bulldozer_rec-Windmill_rec-leaves_1_3.png
+  - FullHD-Car_city_adventures-CHR_Bulldozer-CHR_Bulldozer_rec-Windmill_rec-leaves_1_9.png
+  - FullHD-Car_city_adventures-CHR_Bulldozer-CHR_Bulldozer_rec-Windmill_rec-molino2_1_4.png
+  - FullHD-Car_city_adventures-CHR_Bulldozer-CHR_Bulldozer_rec-Windmill_rec-molino2_1_0.png
+  - FullHD-Car_city_adventures-CHR_Bulldozer-CHR_Bulldozer_rec-Windmill_rec-molino_1_0.png
+  - FullHD-Car_city_adventures-CHR_Bulldozer-CHR_Bulldozer_rec-Windmill_rec-leaves_1_1.png
+  m_RenderDataMap: {}
+  m_Tag: Windmill Atlas
+  m_IsVariant: 0

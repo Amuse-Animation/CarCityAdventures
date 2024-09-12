@@ -1,0 +1,201 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Ambulance Atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 0
+      compressionQuality: 0
+      maxTextureSize: 0
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 1
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 0
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 8192
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 0
+      blockOffset: 0
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: -468214051698312911, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+    - {fileID: 1221782940320194814, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+    - {fileID: -87770808559388747, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+    - {fileID: 4398906757121665851, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+    - {fileID: 173219985018381584, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+    - {fileID: -3001101694811828057, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+    - {fileID: 6944359894031387780, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+    - {fileID: -8067708297817302929, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+    - {fileID: -1612536641813347187, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+    - {fileID: -4410463455818435947, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+    - {fileID: -955929741392109925, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+    - {fileID: -4723462387951597823, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+    - {fileID: 448423766725422537, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+    - {fileID: 8142517730391696784, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+    - {fileID: -221199479042227017, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+    - {fileID: -8410017640533436156, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+    - {fileID: -8593291020463226360, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+    - {fileID: 6740318567332197015, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+    - {fileID: -2117426088679638485, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+    - {fileID: 7776593825235115684, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+    - {fileID: 3245966774771259883, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+    - {fileID: -3968684625444233174, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+    - {fileID: -1484031046778339786, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+    - {fileID: 8345708620659645465, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+    - {fileID: 1393925902962698335, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+    - {fileID: 972953403664411599, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+    - {fileID: -3952593641347670352, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+    - {fileID: -5338727286572784604, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+    - {fileID: -1308730384603040954, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+    - {fileID: 3141455769535941358, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+    - {fileID: -2998179588344592741, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+    - {fileID: 1436879123561317405, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+    - {fileID: 1831697737182798251, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+    - {fileID: 263937679721794860, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+    - {fileID: -3193742638593930824, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+    - {fileID: 1820380982141892282, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - e23c7e70b4e916942850943ca1bf15c6: -8593291020463226360
+    - e23c7e70b4e916942850943ca1bf15c6: -8410017640533436156
+    - e23c7e70b4e916942850943ca1bf15c6: -8067708297817302929
+    - e23c7e70b4e916942850943ca1bf15c6: -5338727286572784604
+    - e23c7e70b4e916942850943ca1bf15c6: -4723462387951597823
+    - e23c7e70b4e916942850943ca1bf15c6: -4410463455818435947
+    - e23c7e70b4e916942850943ca1bf15c6: -3968684625444233174
+    - e23c7e70b4e916942850943ca1bf15c6: -3952593641347670352
+    - e23c7e70b4e916942850943ca1bf15c6: -3193742638593930824
+    - e23c7e70b4e916942850943ca1bf15c6: -3001101694811828057
+    - e23c7e70b4e916942850943ca1bf15c6: -2998179588344592741
+    - e23c7e70b4e916942850943ca1bf15c6: -2117426088679638485
+    - e23c7e70b4e916942850943ca1bf15c6: -1612536641813347187
+    - e23c7e70b4e916942850943ca1bf15c6: -1484031046778339786
+    - e23c7e70b4e916942850943ca1bf15c6: -1308730384603040954
+    - e23c7e70b4e916942850943ca1bf15c6: -955929741392109925
+    - e23c7e70b4e916942850943ca1bf15c6: -468214051698312911
+    - e23c7e70b4e916942850943ca1bf15c6: -221199479042227017
+    - e23c7e70b4e916942850943ca1bf15c6: -87770808559388747
+    - e23c7e70b4e916942850943ca1bf15c6: 173219985018381584
+    - e23c7e70b4e916942850943ca1bf15c6: 263937679721794860
+    - e23c7e70b4e916942850943ca1bf15c6: 448423766725422537
+    - e23c7e70b4e916942850943ca1bf15c6: 972953403664411599
+    - e23c7e70b4e916942850943ca1bf15c6: 1221782940320194814
+    - e23c7e70b4e916942850943ca1bf15c6: 1393925902962698335
+    - e23c7e70b4e916942850943ca1bf15c6: 1436879123561317405
+    - e23c7e70b4e916942850943ca1bf15c6: 1820380982141892282
+    - e23c7e70b4e916942850943ca1bf15c6: 1831697737182798251
+    - e23c7e70b4e916942850943ca1bf15c6: 3141455769535941358
+    - e23c7e70b4e916942850943ca1bf15c6: 3245966774771259883
+    - e23c7e70b4e916942850943ca1bf15c6: 4398906757121665851
+    - e23c7e70b4e916942850943ca1bf15c6: 6740318567332197015
+    - e23c7e70b4e916942850943ca1bf15c6: 6944359894031387780
+    - e23c7e70b4e916942850943ca1bf15c6: 7776593825235115684
+    - e23c7e70b4e916942850943ca1bf15c6: 8142517730391696784
+    - e23c7e70b4e916942850943ca1bf15c6: 8345708620659645465
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: -8593291020463226360, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+  - {fileID: -8410017640533436156, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+  - {fileID: -8067708297817302929, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+  - {fileID: -5338727286572784604, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+  - {fileID: -4723462387951597823, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+  - {fileID: -4410463455818435947, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+  - {fileID: -3968684625444233174, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+  - {fileID: -3952593641347670352, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+  - {fileID: -3193742638593930824, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+  - {fileID: -3001101694811828057, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+  - {fileID: -2998179588344592741, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+  - {fileID: -2117426088679638485, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+  - {fileID: -1612536641813347187, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+  - {fileID: -1484031046778339786, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+  - {fileID: -1308730384603040954, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+  - {fileID: -955929741392109925, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+  - {fileID: -468214051698312911, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+  - {fileID: -221199479042227017, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+  - {fileID: -87770808559388747, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+  - {fileID: 173219985018381584, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+  - {fileID: 263937679721794860, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+  - {fileID: 448423766725422537, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+  - {fileID: 972953403664411599, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+  - {fileID: 1221782940320194814, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+  - {fileID: 1393925902962698335, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+  - {fileID: 1436879123561317405, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+  - {fileID: 1820380982141892282, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+  - {fileID: 1831697737182798251, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+  - {fileID: 3141455769535941358, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+  - {fileID: 3245966774771259883, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+  - {fileID: 4398906757121665851, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+  - {fileID: 6740318567332197015, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+  - {fileID: 6944359894031387780, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+  - {fileID: 7776593825235115684, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+  - {fileID: 8142517730391696784, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+  - {fileID: 8345708620659645465, guid: e23c7e70b4e916942850943ca1bf15c6, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - FullHD-CHR_Ambulance-Jaw_bottom_0.png
+  - FullHD-CHR_Ambulance-Jaw_0.png
+  - FullHD-CHR_Ambulance-Drawing_1_1.png
+  - FullHD-CHR_Ambulance-Mouth_2.png
+  - FullHD-CHR_Ambulance-Eyes_1.png
+  - FullHD-CHR_Ambulance-Ear_R_0.png
+  - FullHD-CHR_Ambulance-Line_2_1.png
+  - FullHD-CHR_Ambulance-Mouth_1.png
+  - FullHD-CHR_Ambulance-Wheel_F_L_0.png
+  - FullHD-CHR_Ambulance-Cross_shadow_0.png
+  - FullHD-CHR_Ambulance-snout_0.png
+  - FullHD-CHR_Ambulance-Light_L_0.png
+  - FullHD-CHR_Ambulance-Ear_L_0.png
+  - FullHD-CHR_Ambulance-Line_3.png
+  - FullHD-CHR_Ambulance-Pupils_0.png
+  - FullHD-CHR_Ambulance-Eyes_0.png
+  - FullHD-CHR_Ambulance-Body_2.png
+  - FullHD-CHR_Ambulance-Head_back_0.png
+  - FullHD-CHR_Ambulance-Butt_0.png
+  - FullHD-CHR_Ambulance-Cheek_light_R_0.png
+  - FullHD-CHR_Ambulance-Wheel_B_R_0.png
+  - FullHD-CHR_Ambulance-Eyes_2.png
+  - FullHD-CHR_Ambulance-Mouth_0.png
+  - FullHD-CHR_Ambulance-Body_3.png
+  - FullHD-CHR_Ambulance-Line_5.png
+  - FullHD-CHR_Ambulance-snout_1.png
+  - FullHD-CHR_Ambulance-Wheel_F_R_0.png
+  - FullHD-CHR_Ambulance-Wheel_B_L_0.png
+  - FullHD-CHR_Ambulance-shadow_0.png
+  - FullHD-CHR_Ambulance-Light_R_side_0.png
+  - FullHD-CHR_Ambulance-Cheek_light_L_0.png
+  - FullHD-CHR_Ambulance-Jaw_side_0.png
+  - FullHD-CHR_Ambulance-Drawing_1_0.png
+  - FullHD-CHR_Ambulance-Light_R_1.png
+  - FullHD-CHR_Ambulance-Head_0.png
+  - FullHD-CHR_Ambulance-Line_3_3.png
+  m_RenderDataMap: {}
+  m_Tag: Ambulance Atlas
+  m_IsVariant: 0
