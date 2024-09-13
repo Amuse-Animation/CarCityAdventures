@@ -1,0 +1,6 @@
+[submodule "Assets/AmuseEngine"]
+	path = Assets/AmuseEngine
+	url = https://github.com/Amuse-Animation/AmuseEngine.git
+[submodule "AmuseEnginePackages"]
+	path = AmuseEnginePackages
+	url = https://github.com/Amuse-Animation/AmuseEnginePackages.git

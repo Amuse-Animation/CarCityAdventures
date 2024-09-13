@@ -1,9 +1,10 @@
-﻿using System;
+﻿using AmuseEngine.Assets.Scripts.HelplerStaticClasses.AddressablesLoader;
+using Cysharp.Threading.Tasks;
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
-using UnityEngine.AddressableAssets.ResourceLocators;
-using UnityEngine.ResourceManagement.AsyncOperations;
+using UnityEngine.Networking;
 using UnityEngine.ResourceManagement.ResourceLocations;
 using UnityEngine.ResourceManagement.ResourceProviders;
 using UnityEngine.SceneManagement;
@@ -12,41 +13,42 @@ namespace PrototypeAddressables
 {
     public class TestPrototypeAddressables : MonoBehaviour
     {
-        private void Start()
+
+        private async UniTaskVoid Start()
         {
-            Addressables.InitializeAsync().Completed += AddressablesReady;
-        }
+            // string catalogPath = @"C:\Users\o.gomez\Documents\UnityProjects\CarCityHealer\CarCityHealer\AddressablesShit\Catalog\catalog_1.1.json";
+            string catalogPath = "https://cdn.mini-mango.com/AddressablesShit/Android/catalog_1.1.json";
 
-        private void AddressablesReady(AsyncOperationHandle<IResourceLocator> obj)
-        {
-            // string wea = "Assets/Scenes/Testing/Code.unity";
-            //
-            // Addressables.LoadSceneAsync(wea, LoadSceneMode.Single).Completed += (x) =>
-            // {
-            //     Debug.Log("Todo Ok");
-            // };
-
-            AsyncOperationHandle<IResourceLocator> loadContentCatlogAsync =
-                Addressables.LoadContentCatalogAsync(
-                    @"C:\Users\OlafGomez\Documents\AmuseProjects\CarCityHealer\AddressablesShit\Catalog\catalog_1.1.json");
-
-            loadContentCatlogAsync.Completed += CatlogLoaded;
-        }
-
-        private void CatlogLoaded(AsyncOperationHandle<IResourceLocator> obj)
-        {
-            // string wea = "Assets/Scenes/Testing/Code.unity";
-            //
-            // Addressables.LoadSceneAsync(wea, LoadSceneMode.Single).Completed += (x) =>
-            // {
-            //     Debug.Log("Todo Ok");
-            // };
-            IResourceLocator resourceLocator = obj.Result;
-            resourceLocator.Locate("Assets/Scenes/LoadingScene/LoadingScene.unity", typeof(SceneInstance), out IList<IResourceLocation> locations);
-            if (locations != null && locations.Count > 0)
+            try
             {
-                Addressables.LoadSceneAsync(locations[0], LoadSceneMode.Additive);
+                await AddressablesLoaderStaticClass.InitAddressablesAsyncWithAwait();
+                //await AddressablesLoaderStaticClass.LoadContentCatalogAsync(catalogPath, (catalogLoaded) =>
+                //{
+                //    print("Finished");
+                //    catalogLoaded.Locate("Assets/Scenes/LoadingScene/LoadingScene.unity", typeof(SceneInstance), out IList<IResourceLocation> locations);
+                //    if (locations != null && locations.Count > 0)
+                //    {
+                //        Addressables.LoadSceneAsync(locations[0], LoadSceneMode.Additive);
+                //    }
+                //});
+
+                // Addressables.LoadContentCatalog()
+                // string 
+
+                var webRequest = (await UnityWebRequest.Get(catalogPath).SendWebRequest()).downloadHandler.text;
+                print(webRequest);
+
             }
+            catch (Exception exception)
+            {
+
+                Debug.LogError($"{exception.Message} - Could not load content catalog async! - Path: {catalogPath}");
+            }
+
+            //var webRequest = UnityWebRequest.Get("");
+            //await webRequest.SendWebRequest();
+
+
         }
     }
 }
