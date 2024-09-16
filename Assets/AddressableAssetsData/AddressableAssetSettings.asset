@@ -15,7 +15,7 @@ MonoBehaviour:
   m_DefaultGroup: 57f7a98b6f657c248abcfd1410982cfe
   m_currentHash:
     serializedVersion: 2
-    Hash: 719e3c4ff481f7fcb037c89e27fa2397
+    Hash: 00000000000000000000000000000000
   m_OptimizeCatalogSize: 0
   m_BuildRemoteCatalog: 1
   m_BundleLocalCatalog: 0
@@ -66,7 +66,7 @@ MonoBehaviour:
       - m_Id: 35763e0937fed7c4e866cdf773ded22e
         m_Value: ServerData/[BuildTarget]
       - m_Id: f257da3339bd87a43b2430f9f4cc3f1f
-        m_Value: C:\Users\OlafGomez\Documents\AmuseProjects\CarCityHealer\ServerData
+        m_Value: https://cdn.mini-mango.com/AddressablesShit/[BuildTarget]
     m_ProfileEntryNames:
     - m_Id: 33e2a75dce67895448f49be9e83d2222
       m_Name: BuildTarget
