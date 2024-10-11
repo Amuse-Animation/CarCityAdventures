@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f898b9b9345dbd41b96ccb5b5ad7f24, type: 3}
+  m_Name: AddressablesSceneStringsList
+  m_EditorClassIdentifier: 
+  currentValue:
+  - SceneName: Assets/Scenes/MainMenu/MainMenuBase.unity
+  - SceneName: Assets/Scenes/LoadingScene/LoadingScene.unity
+  - SceneName: Assets/Scenes/Testing/Code.unity
+  - SceneName: Assets/Scenes/GameplayRoad.unity
+  - SceneName: Assets/Scenes/CarCityHealer/WinterFall.unity
+  - SceneName: Assets/Scenes/Parallax.unity
+  onValueChanged:
+    m_PersistentCalls:
+      m_Calls: []

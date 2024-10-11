@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9634745d034e88f4a8e9d36c923544f4, type: 3}
+  m_Name: SpeedBoostAudioPlayerDataVariable
+  m_EditorClassIdentifier: 
+  currentValue:
+    Instigator: {fileID: 0}
+    AudioClipToReproduce: {fileID: 8300000, guid: cff5613c24c2eea4bad675b383403725,
+      type: 3}
+    AudioMixerGroupToUse: {fileID: -3165942800488051908, guid: 6e832ffdff1453843805a1e7d638594f,
+      type: 2}
+    Volume: 1
+    Pitch: 2.7
+    Loop: 0
+    ShouldRandomizePitch: 0
+    RandomPitchMinRange: 0
+    RandomPitchMaxRange: 0
+  onValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
