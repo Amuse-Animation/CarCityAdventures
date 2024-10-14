@@ -24,6 +24,7 @@ public class ProgressPanelManager : MonoBehaviour
     [Space]
     [SerializeField] ImageColourInterpolatorController _BlurInInterpolator;
     [SerializeField] ImageColourInterpolatorController _BlurOutInterpolator;
+    [SerializeField] private float timeBeforePlacingStickerInHUD;
 
     [Space]
     [SerializeField] ParticleSystem _PopPS;
@@ -160,7 +161,7 @@ public class ProgressPanelManager : MonoBehaviour
                 onAllStickersPlacedOnMapVoidEvent.Raise();
         }
 
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(timeBeforePlacingStickerInHUD);
 
         _VehicleHudBounceScaler[illnessOwner].DoScaleRectTransform();
         _PopPS.Stop();

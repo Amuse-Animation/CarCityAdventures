@@ -3,6 +3,7 @@ using AmuseEngine.Assets.Scripts.ArgsStructObjects.CameraTriggerArgs;
 using AmuseEngine.Assets.Scripts.ArgsStructObjects.DragNDropArgs;
 using AmuseEngine.Assets.Scripts.PoolSystem.Manager;
 using AmuseEngine.Assets.Scripts.UnityPoolableObjects.ControllerBase;
+using CCH.CustomScriptableEvents.ValueIllnessReceiverController;
 using CCH.HealingProcess.Behaviour;
 using CCH.Illness.Controller.Receiver;
 using CCH.Illness.Manager;
@@ -14,6 +15,8 @@ namespace CCH.HealingProcess.Manager
 {
     public class HealingProcessManager : MonoBehaviour
     {
+        public IllnessReceiverController CurrentIllnessReceiverController => currentIllnessReceiverController;
+
         [SerializeField]
         IllnessManager illnessManager;
 
@@ -28,6 +31,9 @@ namespace CCH.HealingProcess.Manager
         
         [SerializeField]
         private VoidEvent onHealingModeActivatedVoidEvent;
+
+        [SerializeField]
+        private ScriptableEventValueIllnessReceiverController onHealingModeActivatedIllnessReceiverControllerEvent;
 
         [SerializeField]
         private UnityEvent<List<PoolableObjectController>> onSpawnRemedyPhaseObject;
@@ -60,6 +66,8 @@ namespace CCH.HealingProcess.Manager
             onHealingModeActivated.Invoke();
             if(onHealingModeActivatedVoidEvent != null)
                 onHealingModeActivatedVoidEvent.Raise();
+
+            onHealingModeActivatedIllnessReceiverControllerEvent.InvokeEvent(currentIllnessReceiverController);
 
             isHealingModeActivated.Value = true;
         }

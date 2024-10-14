@@ -12,6 +12,8 @@ namespace CCH.VisualEffectsBehaviour
         [SerializeField] private TrailRenderer[] m_tiresTrailRenderer;
         [SerializeField] private ParticleSystem[] m_tiresSmoke;
         [SerializeField] private ParticleSystem m_tiresSandSmoke;
+        [SerializeField] private TrailRenderer[] m_tiresTrailExtraRenderer;
+        [SerializeField] private ParticleSystem tireDustSmoke;
 
         [Space(10)]
         [Header("Wheels particles colors  ------------------ ")]
@@ -23,14 +25,15 @@ namespace CCH.VisualEffectsBehaviour
         [SerializeField] private Color colorToChangeSnow;
         [SerializeField] private Color colorToChangeIce;
 
+
         [Space(10)]
-        [Header("Wheels particles colors for standard particles systems, not trail renderer (NOT USED)  ------------------ ")]
-        [SerializeField, HideInInspector] private Color colorToChangeMugTrail;
-        [SerializeField, HideInInspector] private Color colorToChangeWaterTrail;
-        [SerializeField, HideInInspector] private Color colorToChangeSandTrail;
-        [SerializeField, HideInInspector] private Color colorToChangeGrassTrail;
-        [SerializeField, HideInInspector] private Color colorToChangeSnowTrail;
-        [SerializeField, HideInInspector] private Color colorToChangeIceTrail;
+        [Header("Colors for tire dusk smoke for particles systems ")]
+        [SerializeField] private Color tireDuskSmokeColorToChangeMugTrail;
+        [SerializeField] private Color tireDuskSmokeColorToChangeWaterTrail;
+        [SerializeField] private Color tireDuskSmokeColorToChangeSandTrail;
+        [SerializeField] private Color tireDuskSmokeColorToChangeGrassTrail;
+        [SerializeField] private Color tireDuskSmokeColorToChangeSnowTrail;
+        [SerializeField] private Color tireDuskSmokeColorToChangeIceTrail;
 
         [Space(10)]
         [Header("Trail Wheels colors  ------------------ ")]
@@ -63,6 +66,10 @@ namespace CCH.VisualEffectsBehaviour
         [SerializeField] Material matSmokeWater;
         [SerializeField] Material matSmokeSand;
         [SerializeField] Material matTiresAsphalt;
+
+        [SerializeField] private Color currentColorBeingUsed;
+        [SerializeField] private Color currentTireColorBeingUsed;
+        [SerializeField] private Gradient currentColorBeingUsedGradient;
         private void Start()
         {
             for(int i = 0; i < m_tiresTrail.Length; i++) 
@@ -84,13 +91,11 @@ namespace CCH.VisualEffectsBehaviour
 
         public void ChangeColorMug()
         {
-            
-
             for (int i = 0;  i < m_tiresTrail.Length; i++) 
             {
                 
                 MainModuleTires = m_tiresTrail[i].main;
-                MainModuleTires.startColor = colorToChangeMugTrail;
+                MainModuleTires.startColor = colorToChangeMug;
 
             }
             for (int i = 0; i < m_tiresSmoke.Length; i++)
@@ -105,6 +110,17 @@ namespace CCH.VisualEffectsBehaviour
 
             }
 
+            for (int i = 0; i < m_tiresTrailExtraRenderer.Length; i++)
+            {
+                m_tiresTrailExtraRenderer[i].colorGradient = colorToChangeMugTrailGradient;
+            }
+
+            ParticleSystem.MainModule realTireDustMainModule = tireDustSmoke.main;
+            realTireDustMainModule.startColor = tireDuskSmokeColorToChangeMugTrail;
+
+            currentColorBeingUsed = colorToChangeMug;
+            currentTireColorBeingUsed = tireDuskSmokeColorToChangeMugTrail;
+            currentColorBeingUsedGradient = colorToChangeMugTrailGradient;
         }
         public void ChangeColorWater()
         {
@@ -114,7 +130,7 @@ namespace CCH.VisualEffectsBehaviour
             {
 
                 MainModuleTires = m_tiresTrail[i].main;
-                MainModuleTires.startColor = colorToChangeWaterTrail;
+                MainModuleTires.startColor = colorToChangeWater;
 
             }
             for (int i = 0; i < m_tiresSmoke.Length; i++)
@@ -131,6 +147,18 @@ namespace CCH.VisualEffectsBehaviour
 
             }
 
+            for (int i = 0; i < m_tiresTrailExtraRenderer.Length; i++)
+            {
+                m_tiresTrailExtraRenderer[i].colorGradient = colorToChangeWaterTrailGradient;
+            }
+
+            ParticleSystem.MainModule realTireDustMainModule = tireDustSmoke.main;
+            realTireDustMainModule.startColor = tireDuskSmokeColorToChangeWaterTrail;
+
+            currentColorBeingUsed = colorToChangeWater;
+            currentTireColorBeingUsed = tireDuskSmokeColorToChangeWaterTrail;
+            currentColorBeingUsedGradient = colorToChangeWaterTrailGradient;
+            
         }
         public void ChangeColorSand()
         {
@@ -142,7 +170,7 @@ namespace CCH.VisualEffectsBehaviour
             {
 
                 MainModuleTires = m_tiresTrail[i].main;
-                MainModuleTires.startColor = colorToChangeSandTrail;
+                MainModuleTires.startColor = colorToChangeSand;
 
             }
             for (int i = 0; i < m_tiresSmoke.Length; i++)
@@ -158,6 +186,18 @@ namespace CCH.VisualEffectsBehaviour
                 
             }
 
+            for (int i = 0; i < m_tiresTrailExtraRenderer.Length; i++)
+            {
+                m_tiresTrailExtraRenderer[i].colorGradient = colorToChangeSandTrailGradient;
+            }
+
+            ParticleSystem.MainModule realTireDustMainModule = tireDustSmoke.main;
+            realTireDustMainModule.startColor = tireDuskSmokeColorToChangeSandTrail;
+            
+            currentColorBeingUsed = colorToChangeSand;
+            currentTireColorBeingUsed = tireDuskSmokeColorToChangeSandTrail;
+            currentColorBeingUsedGradient = colorToChangeSandTrailGradient;
+
         }
         public void ChangeColorGrass()
         {
@@ -166,7 +206,7 @@ namespace CCH.VisualEffectsBehaviour
             for (int i = 0; i < m_tiresTrail.Length; i++)
             {
                 MainModuleTires = m_tiresTrail[i].main;
-                MainModuleTires.startColor = colorToChangeGrassTrail;
+                MainModuleTires.startColor = colorToChangeGrass;
                 m_tiresTrail[i].GetComponent<ParticleSystemRenderer>().trailMaterial = matTiresGrass;
 
             }
@@ -185,6 +225,18 @@ namespace CCH.VisualEffectsBehaviour
                 m_tiresTrailRenderer[i].GetComponent<TrailRenderer>().material = matTiresGrass;
             }
 
+
+            for (int i = 0; i < m_tiresTrailExtraRenderer.Length; i++)
+            {
+                m_tiresTrailExtraRenderer[i].colorGradient = colorToChangeGrassTrailGradient;
+            }
+
+            ParticleSystem.MainModule realTireDustMainModule = tireDustSmoke.main;
+            realTireDustMainModule.startColor = tireDuskSmokeColorToChangeGrassTrail;
+            
+            currentColorBeingUsed = colorToChangeGrass;
+            currentTireColorBeingUsed = tireDuskSmokeColorToChangeGrassTrail;
+            currentColorBeingUsedGradient = colorToChangeGrassTrailGradient;
         }
 
         public void ChangeColorSnow()
@@ -194,7 +246,7 @@ namespace CCH.VisualEffectsBehaviour
             for (int i = 0; i < m_tiresTrail.Length; i++)
             {
                 MainModuleTires = m_tiresTrail[i].main;
-                MainModuleTires.startColor = colorToChangeSnowTrail;
+                MainModuleTires.startColor = colorToChangeSnow;
                 m_tiresTrail[i].GetComponent<ParticleSystemRenderer>().trailMaterial = matTiresSnow;
 
             }
@@ -213,6 +265,18 @@ namespace CCH.VisualEffectsBehaviour
                 m_tiresTrailRenderer[i].GetComponent<TrailRenderer>().material = matTiresSnow;
             }
 
+            for (int i = 0; i < m_tiresTrailExtraRenderer.Length; i++)
+            {
+                m_tiresTrailExtraRenderer[i].colorGradient = colorToChangeSnowTrailGradient;
+            }
+
+            ParticleSystem.MainModule realTireDustMainModule = tireDustSmoke.main;
+            realTireDustMainModule.startColor = tireDuskSmokeColorToChangeSnowTrail;
+            
+            currentColorBeingUsed = colorToChangeSnow;
+            currentTireColorBeingUsed = tireDuskSmokeColorToChangeSnowTrail;
+            currentColorBeingUsedGradient = colorToChangeSnowTrailGradient;
+
         }
 
         public void ChangeColorIce()
@@ -222,7 +286,7 @@ namespace CCH.VisualEffectsBehaviour
             for (int i = 0; i < m_tiresTrail.Length; i++)
             {
                 MainModuleTires = m_tiresTrail[i].main;
-                MainModuleTires.startColor = colorToChangeIceTrail;
+                MainModuleTires.startColor = colorToChangeIce;
                 m_tiresTrail[i].GetComponent<ParticleSystemRenderer>().trailMaterial = matTiresIce;
 
             }
@@ -241,11 +305,45 @@ namespace CCH.VisualEffectsBehaviour
                 m_tiresTrailRenderer[i].GetComponent<TrailRenderer>().material = matTiresIce;
             }
 
+            for (int i = 0; i < m_tiresTrailExtraRenderer.Length; i++)
+            {
+                m_tiresTrailExtraRenderer[i].colorGradient = colorToChangeIceTrailGradient;
+            }
+
+            ParticleSystem.MainModule realTireDustMainModule = tireDustSmoke.main;
+            realTireDustMainModule.startColor = tireDuskSmokeColorToChangeIceTrail;
+            
+            currentColorBeingUsed = colorToChangeIce;
+            currentTireColorBeingUsed = tireDuskSmokeColorToChangeIceTrail;
+            currentColorBeingUsedGradient = colorToChangeIceTrailGradient;
         }
 
         public void ChangeColorAsphalt_01()
         {
 
+
+            // for (int i = 0; i < m_tiresTrailRenderer.Length; i++)
+            // {
+            //
+            //     m_tiresTrailRenderer[i].colorGradient = colorToChangeAsphaltTrailGradient_01;
+            //     m_tiresTrailRenderer[i].GetComponent<TrailRenderer>().material = matTiresAsphalt;
+            // }
+            
+            
+            for (int i = 0; i < m_tiresTrail.Length; i++)
+            {
+                MainModuleTires = m_tiresTrail[i].main;
+                MainModuleTires.startColor = colorToChangeIce;
+                m_tiresTrail[i].GetComponent<ParticleSystemRenderer>().trailMaterial = matTiresAsphalt;
+
+            }
+
+            for (int i = 0; i < m_tiresSmoke.Length; i++)
+            {
+                MainModuleSmoke = m_tiresSmoke[i].main;
+                MainModuleSmoke.startColor = colorToChangeIce;
+                m_tiresSmoke[i].GetComponent<ParticleSystemRenderer>().material = matTiresAsphalt;
+            }
 
             for (int i = 0; i < m_tiresTrailRenderer.Length; i++)
             {
@@ -254,10 +352,44 @@ namespace CCH.VisualEffectsBehaviour
                 m_tiresTrailRenderer[i].GetComponent<TrailRenderer>().material = matTiresAsphalt;
             }
 
+            for (int i = 0; i < m_tiresTrailExtraRenderer.Length; i++)
+            {
+                m_tiresTrailExtraRenderer[i].colorGradient = colorToChangeAsphaltTrailGradient_01;
+            }
+
+            ParticleSystem.MainModule realTireDustMainModule = tireDustSmoke.main;
+            realTireDustMainModule.startColor = new Color(0,0,0,0);
+            
+            currentColorBeingUsed = new Color(0,0,0,0);;
+            currentTireColorBeingUsed = new Color(0,0,0,0);;
+            currentColorBeingUsedGradient = colorToChangeAsphaltTrailGradient_01;
+
         }
         public void ChangeColorAsphalt_02()
         {
 
+
+            // for (int i = 0; i < m_tiresTrailRenderer.Length; i++)
+            // {
+            //
+            //     m_tiresTrailRenderer[i].colorGradient = colorToChangeAsphaltTrailGradient_02;
+            //     m_tiresTrailRenderer[i].GetComponent<TrailRenderer>().material = matTiresAsphalt;
+            // }
+            
+            for (int i = 0; i < m_tiresTrail.Length; i++)
+            {
+                MainModuleTires = m_tiresTrail[i].main;
+                MainModuleTires.startColor = colorToChangeIce;
+                m_tiresTrail[i].GetComponent<ParticleSystemRenderer>().trailMaterial = matTiresAsphalt;
+
+            }
+
+            for (int i = 0; i < m_tiresSmoke.Length; i++)
+            {
+                MainModuleSmoke = m_tiresSmoke[i].main;
+                MainModuleSmoke.startColor = colorToChangeIce;
+                m_tiresSmoke[i].GetComponent<ParticleSystemRenderer>().material = matTiresAsphalt;
+            }
 
             for (int i = 0; i < m_tiresTrailRenderer.Length; i++)
             {
@@ -265,6 +397,18 @@ namespace CCH.VisualEffectsBehaviour
                 m_tiresTrailRenderer[i].colorGradient = colorToChangeAsphaltTrailGradient_02;
                 m_tiresTrailRenderer[i].GetComponent<TrailRenderer>().material = matTiresAsphalt;
             }
+
+            for (int i = 0; i < m_tiresTrailExtraRenderer.Length; i++)
+            {
+                m_tiresTrailExtraRenderer[i].colorGradient = colorToChangeAsphaltTrailGradient_02;
+            }
+
+            ParticleSystem.MainModule realTireDustMainModule = tireDustSmoke.main;
+            realTireDustMainModule.startColor = new Color(0,0,0,0);
+            
+            currentColorBeingUsed = new Color(0,0,0,0);;
+            currentTireColorBeingUsed = new Color(0,0,0,0);;
+            currentColorBeingUsedGradient = colorToChangeAsphaltTrailGradient_02;
 
         }
 
