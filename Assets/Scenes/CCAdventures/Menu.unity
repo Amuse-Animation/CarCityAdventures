@@ -5119,7 +5119,7 @@ MonoBehaviour:
       m_Bits: 4277567483
     Distance: 0
   sensitivity: 1
-  damping: -1
+  damping: 10
   inertia: 0
   defaultPosition: {x: 0, y: 0, z: 0}
   remainingDelta: {x: 0, y: 0, z: 0}

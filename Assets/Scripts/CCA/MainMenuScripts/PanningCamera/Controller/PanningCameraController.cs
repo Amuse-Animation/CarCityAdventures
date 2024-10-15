@@ -18,7 +18,7 @@ namespace CCA.MainMenuScripts.PanningCamera.Controller
         protected override void LateUpdate()
         {
             panningCameraBehaviour.DetectFingersOnScreen(Use);
-            panningCameraBehaviour.HandleCameraPanning(sensitivity, damping, inertia);
+            panningCameraBehaviour.HandleCameraPanning(Sensitivity, Damping, Inertia);
         }
         
         public void ActivateAutomaticMovement()
