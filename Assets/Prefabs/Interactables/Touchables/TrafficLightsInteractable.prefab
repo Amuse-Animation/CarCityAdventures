@@ -1,0 +1,231 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3884098850531044486
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 231128819785239438}
+    m_Modifications:
+    - target: {fileID: -7012332513657273500, guid: c539856e5279d9e45a07ed4952516dfb,
+        type: 3}
+      propertyPath: m_Name
+      value: TrafficLights
+      objectReference: {fileID: 0}
+    - target: {fileID: -2903065717037899503, guid: c539856e5279d9e45a07ed4952516dfb,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.37894735
+      objectReference: {fileID: 0}
+    - target: {fileID: -2903065717037899503, guid: c539856e5279d9e45a07ed4952516dfb,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.35921052
+      objectReference: {fileID: 0}
+    - target: {fileID: 7287263684305758831, guid: c539856e5279d9e45a07ed4952516dfb,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.458061
+      objectReference: {fileID: 0}
+    - target: {fileID: 7287263684305758831, guid: c539856e5279d9e45a07ed4952516dfb,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.458061
+      objectReference: {fileID: 0}
+    - target: {fileID: 7287263684305758831, guid: c539856e5279d9e45a07ed4952516dfb,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.458061
+      objectReference: {fileID: 0}
+    - target: {fileID: 7287263684305758831, guid: c539856e5279d9e45a07ed4952516dfb,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.21999931
+      objectReference: {fileID: 0}
+    - target: {fileID: 7287263684305758831, guid: c539856e5279d9e45a07ed4952516dfb,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.022000074
+      objectReference: {fileID: 0}
+    - target: {fileID: 7287263684305758831, guid: c539856e5279d9e45a07ed4952516dfb,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7287263684305758831, guid: c539856e5279d9e45a07ed4952516dfb,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7287263684305758831, guid: c539856e5279d9e45a07ed4952516dfb,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7287263684305758831, guid: c539856e5279d9e45a07ed4952516dfb,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7287263684305758831, guid: c539856e5279d9e45a07ed4952516dfb,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7287263684305758831, guid: c539856e5279d9e45a07ed4952516dfb,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7287263684305758831, guid: c539856e5279d9e45a07ed4952516dfb,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7287263684305758831, guid: c539856e5279d9e45a07ed4952516dfb,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8830533822660675218, guid: c539856e5279d9e45a07ed4952516dfb,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.36315787
+      objectReference: {fileID: 0}
+    - target: {fileID: 8830533822660675218, guid: c539856e5279d9e45a07ed4952516dfb,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.35526314
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: -3535015912173895022, guid: c539856e5279d9e45a07ed4952516dfb,
+    type: 3}
+--- !u!4 &5820507679713511145 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7287263684305758831, guid: c539856e5279d9e45a07ed4952516dfb,
+    type: 3}
+  m_PrefabInstance: {fileID: 3884098850531044486}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &6531463106653028372 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: -1205983641592107886, guid: c539856e5279d9e45a07ed4952516dfb,
+    type: 3}
+  m_PrefabInstance: {fileID: 3884098850531044486}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4259078843762608320
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 673967558392001296, guid: 455d7eb257ad35948b35d4c7e7737861,
+        type: 3}
+      propertyPath: m_Name
+      value: TrafficLightsInteractable
+      objectReference: {fileID: 0}
+    - target: {fileID: 6292829314460076364, guid: 455d7eb257ad35948b35d4c7e7737861,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6292829314460076364, guid: 455d7eb257ad35948b35d4c7e7737861,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6292829314460076364, guid: 455d7eb257ad35948b35d4c7e7737861,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6292829314460076364, guid: 455d7eb257ad35948b35d4c7e7737861,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6292829314460076364, guid: 455d7eb257ad35948b35d4c7e7737861,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6292829314460076364, guid: 455d7eb257ad35948b35d4c7e7737861,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6292829314460076364, guid: 455d7eb257ad35948b35d4c7e7737861,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6292829314460076364, guid: 455d7eb257ad35948b35d4c7e7737861,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6292829314460076364, guid: 455d7eb257ad35948b35d4c7e7737861,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6292829314460076364, guid: 455d7eb257ad35948b35d4c7e7737861,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7692644834567217859, guid: 455d7eb257ad35948b35d4c7e7737861,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 1.9284247
+      objectReference: {fileID: 0}
+    - target: {fileID: 7692644834567217859, guid: 455d7eb257ad35948b35d4c7e7737861,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.05940169
+      objectReference: {fileID: 0}
+    - target: {fileID: 7707253267893077220, guid: 455d7eb257ad35948b35d4c7e7737861,
+        type: 3}
+      propertyPath: onDoInteraction.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7707253267893077220, guid: 455d7eb257ad35948b35d4c7e7737861,
+        type: 3}
+      propertyPath: onDoInteraction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 6531463106653028372}
+    - target: {fileID: 7707253267893077220, guid: 455d7eb257ad35948b35d4c7e7737861,
+        type: 3}
+      propertyPath: onDoInteraction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Play
+      objectReference: {fileID: 0}
+    - target: {fileID: 7707253267893077220, guid: 455d7eb257ad35948b35d4c7e7737861,
+        type: 3}
+      propertyPath: onDoInteraction.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UnityEngine.Animator, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7707253267893077220, guid: 455d7eb257ad35948b35d4c7e7737861,
+        type: 3}
+      propertyPath: onDoInteraction.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: TrafficLights_touch
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 4048291636562461518, guid: 455d7eb257ad35948b35d4c7e7737861,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5820507679713511145}
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 455d7eb257ad35948b35d4c7e7737861, type: 3}
+--- !u!4 &231128819785239438 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4048291636562461518, guid: 455d7eb257ad35948b35d4c7e7737861,
+    type: 3}
+  m_PrefabInstance: {fileID: 4259078843762608320}
+  m_PrefabAsset: {fileID: 0}
