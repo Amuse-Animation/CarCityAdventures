@@ -1,6 +1,6 @@
 ﻿using CCA.ContentDownloader.Controller;
 using CCA.ContentDownloader.Interface;
-using CCA.DownloadableContent.Interface;
+using CCA.InternetContent.DownloadableContent.DownloadableObject.Interface;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 
@@ -11,9 +11,9 @@ namespace CCA.ContentDownloader.Manager
         [SerializeField]
         private ContentDownloaderController contentDownloaderController;
         
-        public async UniTask<string> GetDownloadableContentAsString(IDownloadableContent downloadableContent)
+        public UniTask<string> GetDownloadableContentAsString(IDownloadableContent downloadableContent, System.Action<string> onDownloadComplete = null)
         {
-            return  await contentDownloaderController.GetDownloadableContentAsString(downloadableContent);
+            return contentDownloaderController.GetDownloadableContentAsString(downloadableContent, onDownloadComplete);
         }
     }
 }

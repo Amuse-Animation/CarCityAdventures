@@ -78,6 +78,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterWorldButtonDataArgs:
     URL: https://cdn.mini-mango.com/AddressablesShit/Android/catalog_1.1.json
+    TitleFileName: Healer.json
+    StorageFolderName: HealerFolder
+    AddressableContentName: Assets/Scenes/MainMenu/MainMenuBase.unity
 --- !u!1001 &3817238452511170493
 PrefabInstance:
   m_ObjectHideFlags: 0

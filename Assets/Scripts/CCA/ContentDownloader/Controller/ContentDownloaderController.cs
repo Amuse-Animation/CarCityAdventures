@@ -1,5 +1,5 @@
 ﻿using CCA.ContentDownloader.Behaviour;
-using CCA.DownloadableContent.Interface;
+using CCA.InternetContent.DownloadableContent.DownloadableObject.Interface;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 
@@ -14,9 +14,9 @@ namespace CCA.ContentDownloader.Controller
             contentDownloaderBehaviour = new ContentDownloaderBehaviour();
         }
 
-        public async UniTask<string> GetDownloadableContentAsString(IDownloadableContent downloadableContent)
+        public UniTask<string> GetDownloadableContentAsString(IDownloadableContent downloadableContent, System.Action<string> onDownloadComplete = null)
         {
-            return await contentDownloaderBehaviour.GetDownloadableContentAsString(downloadableContent);
+            return contentDownloaderBehaviour.GetDownloadableContentAsString(downloadableContent, onDownloadComplete);
         }
     }
 }

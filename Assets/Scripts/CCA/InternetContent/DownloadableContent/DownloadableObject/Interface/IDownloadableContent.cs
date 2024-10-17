@@ -1,4 +1,4 @@
-﻿namespace CCA.DownloadableContent.Interface
+﻿namespace CCA.InternetContent.DownloadableContent.DownloadableObject.Interface
 {
     public interface IDownloadableContent
     {

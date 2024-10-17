@@ -1,10 +1,8 @@
 ﻿using CCA.AddressablesContent.Manager;
-using CCA.CustomArgsClassObjects.AddressableDownloadableObjectArgs;
 using CCA.CustomArgsStructObjects.MainMenuStruct.CharacterWorldButton;
 using CCA.CustomArgsStructObjects.MainMenuStruct.CharacterWorldButtonClickArgs;
 using CCA.MainMenuScripts.PanningCamera.Manager;
 using CCA.MainMenuScripts.WorldButtonInteraction.Controller;
-using Cysharp.Threading.Tasks;
 using UnityEngine;
 
 namespace CCA.MainMenuScripts.WorldButtonInteraction.Manager
@@ -22,17 +20,17 @@ namespace CCA.MainMenuScripts.WorldButtonInteraction.Manager
 
         private void Awake()
         {
-            carCityAdventureWorldButtonInteractionController.Init(panningCameraManager);
+            carCityAdventureWorldButtonInteractionController.Init();
         }
 
         public void OnWorldButtonClicked(CharacterWorldButtonClickedArgsStruct worldButtonClickedArgs)
         {
-            carCityAdventureWorldButtonInteractionController.MoveCameraTowardsWorldButton(worldButtonClickedArgs);
+            carCityAdventureWorldButtonInteractionController.MoveCameraTowardsWorldButton(panningCameraManager, worldButtonClickedArgs, null,
+                () =>
+                {
+                    carCityAdventureWorldButtonInteractionController.InitiateCharacterWorldButtonGame(addressableContentManager, worldButtonClickedArgs.CharacterWorldButtonClicked.GetCharacterWorldButtonDataArgs());
+                });
 
-            CarCityAdventureCharacterWorldButtonDataArgsStruct worldButtonData = worldButtonClickedArgs.CharacterWorldButtonClicked.GetCharacterWorldButtonDataArgs();
-            AddressableDownloadableObjectArgsClass addressableDownloadableObject =
-                new AddressableDownloadableObjectArgsClass(worldButtonData.URL, worldButtonData.TitleFileName, worldButtonData.StorageFolderName, worldButtonData.AddressableContentName);
-            addressableContentManager.DownloadAddressableContentAsync(addressableDownloadableObject).Forget();
         }
     }
 }

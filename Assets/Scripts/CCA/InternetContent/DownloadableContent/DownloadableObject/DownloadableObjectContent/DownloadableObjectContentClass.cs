@@ -1,10 +1,10 @@
-﻿using CCA.DownloadableContent.Interface;
+﻿using CCA.InternetContent.DownloadableContent.DownloadableObject.Interface;
 using UnityEngine;
 
-namespace CCA.CustomArgsClassObjects.DownloadableObjectArgs
+namespace CCA.InternetContent.DownloadableContent.DownloadableObject.DownloadableObjectContent
 {
     [System.Serializable]
-    public class DownloadableObjectArgsClass : IDownloadableContent
+    public class DownloadableObjectContentClass : IDownloadableContent
     {
         public string URL => url;
         public string TitleFileName => titleFileName;
@@ -19,7 +19,7 @@ namespace CCA.CustomArgsClassObjects.DownloadableObjectArgs
         [SerializeField]
         private string storageFolderName;
 
-        public DownloadableObjectArgsClass(string url, string titleFileName, string storageFolderName)
+        public DownloadableObjectContentClass(string url, string titleFileName, string storageFolderName)
         {
             this.url = url;
             this.titleFileName = titleFileName;

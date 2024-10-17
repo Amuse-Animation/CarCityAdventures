@@ -1,4 +1,6 @@
-﻿using CCA.CustomArgsStructObjects.MainMenuStruct.CharacterWorldButtonClickArgs;
+﻿using CCA.AddressablesContent.Manager;
+using CCA.CustomArgsStructObjects.MainMenuStruct.CharacterWorldButton;
+using CCA.CustomArgsStructObjects.MainMenuStruct.CharacterWorldButtonClickArgs;
 using CCA.MainMenuScripts.PanningCamera.Manager;
 using CCA.MainMenuScripts.WorldButtonInteraction.Behaviour;
 using UnityEngine;
@@ -12,14 +14,19 @@ namespace CCA.MainMenuScripts.WorldButtonInteraction.Controller
         
         private CarCityAdventureWorldButtonInteractionBehaviour carCityAdventureWorldButtonInteractionBehaviour;
 
-        public void Init(PanningCameraManager panningCameraManager)
+        public void Init()
         {
-            carCityAdventureWorldButtonInteractionBehaviour = new CarCityAdventureWorldButtonInteractionBehaviour(panningCameraManager);
+            carCityAdventureWorldButtonInteractionBehaviour = new CarCityAdventureWorldButtonInteractionBehaviour();
         }
         
-        public void MoveCameraTowardsWorldButton(CharacterWorldButtonClickedArgsStruct worldButtonClickedArgs, System.Action onMovementStart = null, System.Action onMovementEnd = null)
+        public void MoveCameraTowardsWorldButton(PanningCameraManager panningCameraManager,CharacterWorldButtonClickedArgsStruct worldButtonClickedArgs, System.Action onMovementStart = null, System.Action onMovementEnd = null)
         {
-            carCityAdventureWorldButtonInteractionBehaviour.MoveCameraTowardsWorldButton(worldButtonClickedArgs, movementDuration, onMovementStart, onMovementEnd);
+            carCityAdventureWorldButtonInteractionBehaviour.MoveCameraTowardsWorldButton(panningCameraManager,worldButtonClickedArgs, movementDuration, onMovementStart, onMovementEnd);
+        }
+
+        public void InitiateCharacterWorldButtonGame(AddressableContentManager addressableContentManager, CarCityAdventureCharacterWorldButtonDataArgsStruct worldButtonClickedArgs)
+        {
+            carCityAdventureWorldButtonInteractionBehaviour.InitiateCharacterWorldButtonGame(addressableContentManager, worldButtonClickedArgs).Forget();
         }
     }
 }
