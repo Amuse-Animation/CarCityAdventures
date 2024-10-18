@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Fountain Atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 0
+      compressionQuality: 0
+      maxTextureSize: 0
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 1
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 0
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 8192
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 0
+      blockOffset: 0
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 3220156915939085732, guid: bc7b1f9ddbe38f546b8e53ab08db9f36, type: 3}
+    - {fileID: -3365905678689812815, guid: bc7b1f9ddbe38f546b8e53ab08db9f36, type: 3}
+    - {fileID: 5620869276670788493, guid: bc7b1f9ddbe38f546b8e53ab08db9f36, type: 3}
+    - {fileID: -1352686653794862718, guid: bc7b1f9ddbe38f546b8e53ab08db9f36, type: 3}
+    - {fileID: 47146052671623347, guid: bc7b1f9ddbe38f546b8e53ab08db9f36, type: 3}
+    - {fileID: 4548639838342802935, guid: bc7b1f9ddbe38f546b8e53ab08db9f36, type: 3}
+    - {fileID: -5769869946994185035, guid: bc7b1f9ddbe38f546b8e53ab08db9f36, type: 3}
+    - {fileID: -4195149524442090305, guid: bc7b1f9ddbe38f546b8e53ab08db9f36, type: 3}
+    - {fileID: -3003312607874946779, guid: bc7b1f9ddbe38f546b8e53ab08db9f36, type: 3}
+    - {fileID: -634780101017699476, guid: bc7b1f9ddbe38f546b8e53ab08db9f36, type: 3}
+    - {fileID: 2389401773889617670, guid: bc7b1f9ddbe38f546b8e53ab08db9f36, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys: []
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites: []
+  m_PackedSpriteNamesToIndex: []
+  m_RenderDataMap: {}
+  m_Tag: Fountain Atlas
+  m_IsVariant: 0
