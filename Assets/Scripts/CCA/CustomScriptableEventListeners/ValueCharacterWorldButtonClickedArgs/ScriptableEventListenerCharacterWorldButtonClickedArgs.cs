@@ -1,7 +1,7 @@
 ﻿using AmuseEngine.Assets.Scripts.ScriptableEventListeners.Interface;
 using AmuseEngine.Assets.Scripts.ScriptableEvents.BaseArgs;
 using CCA.CustomArgsStructObjects.MainMenuStruct.CharacterWorldButton;
-using CCA.CustomArgsStructObjects.MainMenuStruct.CharacterWorldButtonClickArgs;
+using CCA.CustomArgsStructObjects.MainMenuStruct.CharacterWorldButtonClickedArgs;
 using UnityEngine;
 using UnityEngine.Events;
 

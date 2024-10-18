@@ -1,6 +1,6 @@
 ﻿using CCA.AddressablesContent.Manager;
 using CCA.CustomArgsStructObjects.MainMenuStruct.CharacterWorldButton;
-using CCA.CustomArgsStructObjects.MainMenuStruct.CharacterWorldButtonClickArgs;
+using CCA.CustomArgsStructObjects.MainMenuStruct.CharacterWorldButtonClickedArgs;
 using CCA.MainMenuScripts.PanningCamera.Manager;
 using CCA.MainMenuScripts.WorldButtonInteraction.Controller;
 using UnityEngine;

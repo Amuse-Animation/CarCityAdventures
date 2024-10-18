@@ -1,7 +1,7 @@
 ﻿using CCA.MainMenuScripts.CharacterWorldButton.Manager;
 using UnityEngine;
 
-namespace CCA.CustomArgsStructObjects.MainMenuStruct.CharacterWorldButtonClickArgs
+namespace CCA.CustomArgsStructObjects.MainMenuStruct.CharacterWorldButtonClickedArgs
 {
     [System.Serializable]
     public struct CharacterWorldButtonClickedArgsStruct

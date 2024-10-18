@@ -1,5 +1,5 @@
 ﻿using CCA.CustomArgsStructObjects.MainMenuStruct.CharacterWorldButton;
-using CCA.CustomArgsStructObjects.MainMenuStruct.CharacterWorldButtonClickArgs;
+using CCA.CustomArgsStructObjects.MainMenuStruct.CharacterWorldButtonClickedArgs;
 using CCA.CustomScriptableEvents.ValueCharacterWorldButtonClickedArgs;
 using CCA.MainMenuScripts.CharacterWorldButton.Controller;
 using UnityEngine;

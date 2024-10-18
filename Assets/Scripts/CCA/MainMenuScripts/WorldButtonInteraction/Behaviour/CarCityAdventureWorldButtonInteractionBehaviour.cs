@@ -2,7 +2,7 @@
 using AmuseEngine.Assets.Scripts.HelplerStaticClasses.LoadDataSerializer;
 using CCA.AddressablesContent.Manager;
 using CCA.CustomArgsStructObjects.MainMenuStruct.CharacterWorldButton;
-using CCA.CustomArgsStructObjects.MainMenuStruct.CharacterWorldButtonClickArgs;
+using CCA.CustomArgsStructObjects.MainMenuStruct.CharacterWorldButtonClickedArgs;
 using CCA.InternetContent.DownloadableContent.AddressableDownloadableObject.AddressableDownloadableContent;
 using CCA.InternetContent.DownloadableContent.AddressableDownloadableObject.Interface;
 using CCA.InternetContent.LoadableContent.AddressableLoadableObject.Interface;
