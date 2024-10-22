@@ -1,4 +1,6 @@
-﻿using CCA.CustomArgsStructObjects.MainMenuStruct.CharacterWorldButton;
+﻿using System;
+using AmuseEngine.Assets.Scripts.ScriptableVariables.UnityServicesData;
+using CCA.CustomArgsStructObjects.MainMenuStruct.CharacterWorldButton;
 using CCA.CustomArgsStructObjects.MainMenuStruct.CharacterWorldButtonClickedArgs;
 using CCA.CustomScriptableEvents.ValueCharacterWorldButtonClickedArgs;
 using CCA.MainMenuScripts.CharacterWorldButton.Controller;
@@ -16,6 +18,18 @@ namespace CCA.MainMenuScripts.CharacterWorldButton.Manager
         private Transform characterWorldButtonModel;
         
         [SerializeField]
+        private ScriptableVariableUnityServicesData scriptableVariableUnityServicesData;
+
+        [SerializeField] 
+        private Sprite lockedSpriteIcon;
+        
+        [SerializeField] 
+        private Sprite downloadSpriteIcon;
+        
+        [SerializeField] 
+        private Sprite playSpriteIcon;
+        
+        [SerializeField]
         private CarCityAdventureCharacterWorldButtonController carCityAdventureCharacterWorldButtonController;
         
         [SerializeField]
@@ -23,6 +37,11 @@ namespace CCA.MainMenuScripts.CharacterWorldButton.Manager
         
         [SerializeField]
         private ScriptableEventCharacterWorldButtonClickedArgsStruct onCharacterWorldButtonClickedArgsScriptableEvent;
+
+        private void OnEnable()
+        {
+            ShowCorrespondingCharacterWorldButtonIcon();
+        }
 
         public void OnCharacterWorldButtonClicked()
         {
@@ -42,6 +61,28 @@ namespace CCA.MainMenuScripts.CharacterWorldButton.Manager
         public CarCityAdventureCharacterWorldButtonDataArgsStruct GetCharacterWorldButtonDataArgs()
         {
             return carCityAdventureCharacterWorldButtonController.GetCharacterWorldButtonDataArgs();
+        }
+
+        public void ShowCorrespondingCharacterWorldButtonIcon()
+        {
+            if (!scriptableVariableUnityServicesData.Value.IAPManager.UserHasAccessToContent)
+            {
+                carCityAdventureCharacterWorldButtonController.ChangeWorldButtonIcon(lockedSpriteIcon);
+                return;
+            }
+
+            if (!HasWorldContentBeenPreviouslyDownloaded())
+            {
+                carCityAdventureCharacterWorldButtonController.ChangeWorldButtonIcon(downloadSpriteIcon);
+                return;
+            }
+
+            carCityAdventureCharacterWorldButtonController.ChangeWorldButtonIcon(playSpriteIcon);
+        }
+        
+        public bool HasWorldContentBeenPreviouslyDownloaded()
+        {
+            return carCityAdventureCharacterWorldButtonController.HasWorldContentBeenPreviouslyDownloaded();
         }
     }
 }

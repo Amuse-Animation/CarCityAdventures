@@ -1,8 +1,10 @@
-﻿using CCA.AddressablesContent.Manager;
+﻿using AmuseEngine.Assets.Scripts.CameraNavigation.PanningCamera.Manager;
+using AmuseEngine.Assets.Scripts.InternetContent.AddressablesContent.Manager;
 using CCA.CustomArgsStructObjects.MainMenuStruct.CharacterWorldButton;
 using CCA.CustomArgsStructObjects.MainMenuStruct.CharacterWorldButtonClickedArgs;
-using CCA.MainMenuScripts.PanningCamera.Manager;
+using CCA.MainMenuScripts.CharacterWorldButton.Manager;
 using CCA.MainMenuScripts.WorldButtonInteraction.Behaviour;
+using Cysharp.Threading.Tasks;
 using UnityEngine;
 
 namespace CCA.MainMenuScripts.WorldButtonInteraction.Controller
@@ -24,9 +26,14 @@ namespace CCA.MainMenuScripts.WorldButtonInteraction.Controller
             carCityAdventureWorldButtonInteractionBehaviour.MoveCameraTowardsWorldButton(panningCameraManager,worldButtonClickedArgs, movementDuration, onMovementStart, onMovementEnd);
         }
 
-        public void InitiateCharacterWorldButtonGame(AddressableContentManager addressableContentManager, CarCityAdventureCharacterWorldButtonDataArgsStruct worldButtonClickedArgs)
+        public void InitiateCharacterWorldButtonGame(AddressableContentManager addressableContentManager,CarCityAdventureCharacterWorldButtonManager characterWorldButtonManagerClicked, string sceneNameToUnload = "")
         {
-            carCityAdventureWorldButtonInteractionBehaviour.InitiateCharacterWorldButtonGame(addressableContentManager, worldButtonClickedArgs).Forget();
+            carCityAdventureWorldButtonInteractionBehaviour.InitiateCharacterWorldButtonGame(addressableContentManager, characterWorldButtonManagerClicked, sceneNameToUnload).Forget();
+        }
+
+        public UniTaskVoid InitiateCharacterWorldButtonGame(AddressableContentManager addressableContentManager,CarCityAdventureCharacterWorldButtonManager characterWorldButtonManagerClicked, string sceneNameToUnload = "", System.Action<float> onProgress = null, System.Action onCompleted = null)
+        {
+            return carCityAdventureWorldButtonInteractionBehaviour.InitiateCharacterWorldButtonGame(addressableContentManager, characterWorldButtonManagerClicked, sceneNameToUnload, onProgress, onCompleted);
         }
     }
 }

@@ -1,15 +1,17 @@
 ﻿using System;
+using AmuseEngine.Assets.Scripts.CameraNavigation.PanningCamera.Manager;
 using AmuseEngine.Assets.Scripts.HelplerStaticClasses.LoadDataSerializer;
-using CCA.AddressablesContent.Manager;
+using AmuseEngine.Assets.Scripts.InternetContent.AddressablesContent.Manager;
+using AmuseEngine.Assets.Scripts.InternetContent.DownloadableContent.AddressableDownloadableObject.AddressableDownloadableContent;
+using AmuseEngine.Assets.Scripts.InternetContent.DownloadableContent.AddressableDownloadableObject.Interface;
+using AmuseEngine.Assets.Scripts.InternetContent.LoadableContent.AddressableLoadableObject.Interface;
 using CCA.CustomArgsStructObjects.MainMenuStruct.CharacterWorldButton;
 using CCA.CustomArgsStructObjects.MainMenuStruct.CharacterWorldButtonClickedArgs;
-using CCA.InternetContent.DownloadableContent.AddressableDownloadableObject.AddressableDownloadableContent;
-using CCA.InternetContent.DownloadableContent.AddressableDownloadableObject.Interface;
-using CCA.InternetContent.LoadableContent.AddressableLoadableObject.Interface;
-using CCA.MainMenuScripts.PanningCamera.Manager;
+using CCA.MainMenuScripts.CharacterWorldButton.Manager;
 using Cysharp.Threading.Tasks;
 using DG.Tweening;
 using UnityEngine;
+using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.ResourceProviders;
 using UnityEngine.SceneManagement;
 
@@ -34,20 +36,45 @@ namespace CCA.MainMenuScripts.WorldButtonInteraction.Behaviour
                     });
         }
 
-        public async UniTaskVoid InitiateCharacterWorldButtonGame(AddressableContentManager addressableContentManager, CarCityAdventureCharacterWorldButtonDataArgsStruct worldButtonClickedArgs)
+        public async UniTaskVoid InitiateCharacterWorldButtonGame(AddressableContentManager addressableContentManager, CarCityAdventureCharacterWorldButtonManager characterWorldButtonManagerClicked, string sceneNameToUnload = "" ,System.Action<float> onProgress = null, System.Action onCompleted = null)
         {
-            IAddressableDownloadableContent addressableDownloadableObject = new AddressableDownloadableContentClass(worldButtonClickedArgs.URL, worldButtonClickedArgs.TitleFileName, worldButtonClickedArgs.StorageFolderName, worldButtonClickedArgs.AddressableContentName);
+            float currentProgress = 0f;
 
-            if (!LoadDataSerializerStaticClass.HasSaveFileBeenCreated(addressableDownloadableObject.TitleFileName, addressableDownloadableObject.StorageFolderName))
+            CarCityAdventureCharacterWorldButtonDataArgsStruct characterWorldButtonDataArgs = characterWorldButtonManagerClicked.GetCharacterWorldButtonDataArgs();
+            
+            IAddressableDownloadableContent addressableDownloadableObject = new AddressableDownloadableContentClass(characterWorldButtonDataArgs.URL, characterWorldButtonDataArgs.TitleFileName, characterWorldButtonDataArgs.StorageFolderName, characterWorldButtonDataArgs.AddressableContentName);
+            
+            if (!characterWorldButtonManagerClicked.HasWorldContentBeenPreviouslyDownloaded())
             {
                 string downloadedContent = await addressableContentManager.DoDownloadAddressableContentAsync(addressableDownloadableObject);
                 addressableContentManager.DoSaveDownloadedAddressableContent(downloadedContent,addressableDownloadableObject);
+
+                await DOTween.To(() => currentProgress, x => currentProgress = x, 30f, 1f).OnUpdate(() =>
+                {
+                    onProgress?.Invoke(currentProgress);
+                }).AsyncWaitForCompletion().AsUniTask();
             }
             
             IAddressableLoadableContent addressableLoadableContent = await addressableContentManager.LoadDownloadedAddressableCatalogContent(addressableDownloadableObject);
-            SceneInstance sceneInstance = await addressableContentManager.LoadAddressableSceneInCatalogContent(addressableLoadableContent, LoadSceneMode.Single);
+            
+            await DOTween.To(() => currentProgress, x => currentProgress = x, 50f, 1f).OnUpdate(() =>
+            {
+                onProgress?.Invoke(currentProgress);
+            }).AsyncWaitForCompletion().AsUniTask();
+            
+            SceneInstance sceneInstance = await addressableContentManager.LoadAddressableSceneInCatalogContent(addressableLoadableContent, LoadSceneMode.Additive, false);
             await UniTask.Delay(TimeSpan.FromSeconds(5));
+            
+            await DOTween.To(() => currentProgress, x => currentProgress = x, 100f, 1f).OnUpdate(() =>
+            {
+                onProgress?.Invoke(currentProgress);
+            }).AsyncWaitForCompletion().AsUniTask();
+            
             sceneInstance.ActivateAsync();
+            onCompleted?.Invoke();
+            
+            if(!string.IsNullOrEmpty(sceneNameToUnload)) 
+                SceneManager.UnloadSceneAsync(sceneNameToUnload);
         }
     }
 }
