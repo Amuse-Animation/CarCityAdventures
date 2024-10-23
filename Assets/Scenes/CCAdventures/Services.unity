@@ -234,9 +234,42 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onUserInterfaceViewKilledCommanded:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 23869c1252e7ef14586900ff9e6d3369, type: 2}
+        m_TargetAssemblyTypeName: AmuseEngine.Assets.Scripts.ScriptableEvents.BaseArgs.ScriptableEventBaseArgs`1[[AmuseEngine.Assets.Scripts.UserInterfaceScreen.Deactivators.SingleDeactivator.DeactivatorObject.UserInterfaceViewSingleDeactivatorObjectClass,
+          AmuseEngineAssembly
+        m_MethodName: InvokeEvent
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onIAPInitialized:
     m_PersistentCalls:
       m_Calls: []
+  onPurchasingProcessCompleted:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: d6aac1c57cb47d448b1197cabce24640, type: 2}
+        m_TargetAssemblyTypeName: AmuseEngine.Assets.Scripts.ScriptableEvents.BaseArgs.ScriptableEventBaseArgs`1[[AmuseEngine.Assets.Scripts.ArgsStructObjects.IAPPuchaseArgs.IAPPurchaseArgsStruct,
+          AmuseEngineAssembly
+        m_MethodName: InvokeEvent
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  userHasAccessToContent: 0
 --- !u!1 &282291632
 GameObject:
   m_ObjectHideFlags: 0

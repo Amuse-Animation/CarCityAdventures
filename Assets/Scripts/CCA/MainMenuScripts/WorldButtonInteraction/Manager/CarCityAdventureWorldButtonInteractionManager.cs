@@ -2,7 +2,8 @@
 using AmuseEngine.Assets.Scripts.CameraNavigation.PanningCamera.Manager;
 using AmuseEngine.Assets.Scripts.ScriptableVariables.UnityServicesData;
 using AmuseEngine.Assets.Scripts.UserInterfaceScreen.Activators.SingleActivator.ActivatorObject;
-using AmuseEngine.Assets.Scripts.UserInterfaceScreen.Commander.Interface;
+using AmuseEngine.Assets.Scripts.UserInterfaceScreen.Commander.ViewChangerCommander.Interface;
+using AmuseEngine.Assets.Scripts.UserInterfaceScreen.Deactivators.SingleDeactivator.DeactivatorObject;
 using CCA.CustomArgsStructObjects.MainMenuStruct.CharacterWorldButtonClickedArgs;
 using CCA.MainMenuScripts.WorldButtonInteraction.Controller;
 using Cysharp.Threading.Tasks;
@@ -11,12 +12,13 @@ using UnityEngine.Events;
 
 namespace CCA.MainMenuScripts.WorldButtonInteraction.Manager
 {
-    public class CarCityAdventureWorldButtonInteractionManager : MonoBehaviour, IUserInterfaceViewCommander
+    public class CarCityAdventureWorldButtonInteractionManager : MonoBehaviour, IUserInterfaceViewChangerCommander
     {
         public string DesiredUserInterfaceView => desiredUserInterfaceView;
 
-        public UnityEvent<UserInterfaceViewSingleActivatorObjectClass> OnUserInterfaceViewCommanded => onUserInterfaceViewCommanded;
-        
+        public UnityEvent<UserInterfaceViewSingleActivatorObjectClass> OnUserInterfaceViewChangerCommanded => onUserInterfaceViewCommanded;
+        public UnityEvent<UserInterfaceViewSingleDeactivatorObjectClass> OnUserInterfaceViewKilledCommanded { get; }
+
         [SerializeField]
         private PanningCameraManager panningCameraManager;
         
@@ -54,7 +56,7 @@ namespace CCA.MainMenuScripts.WorldButtonInteraction.Manager
 
         }
 
-        public UniTaskVoid ExecuteViewOrder(Action<float> onProgress = null, Action onCompleted = null)
+        public UniTaskVoid ExecuteViewChangingOrder(Action<float> onProgress = null, Action onCompleted = null)
         {
            return carCityAdventureWorldButtonInteractionController.InitiateCharacterWorldButtonGame(
                                                                    scriptableVariableUnityServicesData.Value.AddressableContentManager,
@@ -63,6 +65,11 @@ namespace CCA.MainMenuScripts.WorldButtonInteraction.Manager
                                                                    onProgress,
                                                                    onCompleted);
             
+        }
+
+        public UniTaskVoid ExecuteKillChangedViewOrder(Action<float> onProgress = null, Action onCompleted = null)
+        {
+            throw new NotImplementedException();
         }
     }
 }
